@@ -106,7 +106,6 @@ export function Team2() {
   )
 }
 
-
 export function Team() {
   return (
     <div className="flex flex-row items-center justify-center px-6 py-4 w-full max-w-[90vw] h-[60vh] mx-auto gap-5">
@@ -201,7 +200,7 @@ export function Team() {
               </p>
             </div>
           </div>
-          <div className='flex flex-row items-center justify-end mt-10 w-full'>
+          <div className="flex flex-row items-center justify-end mt-10 w-full">
             <div className="rounded-full w-[10vh] h-[3vh] bg-[#FF6B3A] grid place-content-center"></div>
           </div>
         </div>
@@ -288,13 +287,15 @@ export function Lottery() {
 
 export function Mission() {
   return (
-    <div className="flex flex-row items-center justify-around w-full px-6 lg:px-16 py-4 lg:py-6 h-[60vh] ">
-      <div className="flex flex-col items-start justify-center gap-5 flex-wrap">
-        <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
-          {'OUr MIssion & Vision'.toUpperCase()}
-        </p>
-        <hr className="h-[2vh] w-[15vw] bg-[#FF7429]" />
-        <p className="text-[2vw] lg:text-[0.6vw] lg:max-w-[45vw]">
+    <div className="flex flex-row items-center justify-center w-full h-[40vw] ">
+      <div className="flex flex-col items-start justify-center gap-[5vw] ">
+        <div>
+          <p className="text-[2.7vw] md:text-[3.0vw] font-bold text-[#842a00]">
+            <em>{'OUr MIssion & Vision'.toUpperCase()}</em>
+          </p>
+          <hr className="h-[1vw] w-[15vw] bg-[#f98c47]" />
+        </div>
+        <p className="text-[1.2vw] md:text-[1.5vw] max-w-[55vw]">
           It is a long-established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -309,7 +310,7 @@ export function Mission() {
       <img
         src={AboutDiv2}
         alt="AboutDiv2"
-        className="w-[40vw] h-[40vw] lg:w-[40vh] lg:h-[40vh]"
+        className="w-[30vw] h-[30vw]"
       />
     </div>
   )
@@ -317,22 +318,27 @@ export function Mission() {
 
 export function Main() {
   return (
-    <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[60vh] lg:h-[84vh] ">
-      <div className="flex flex-row items-center justify-center h-full gap-[5vh] px-6 py-4">
-        <div className="flex flex-col items-start justify-center h-full gap-[5vh]">
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold">
+    <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] ">
+      <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
+        <div className="flex flex-col items-start justify-center h-full gap-[2vw] -mr-[20vw]">
+          <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">
             {'About Us'.toUpperCase()}
           </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] text-[#E25000] font-bold">
-            {'We Offer'.toUpperCase()}
-          </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold">
-            {'a Wide Variety of Lotteries'.toUpperCase()}
-          </p>
-          <hr className="h-[2vh] w-[15vw] bg-[#FF7429]" />
+          <div>
+            <p className="text-[2.7vw] md:text-[3.0vw] font-bold text-[#f54200]">
+              <em>{'We Offer'.toUpperCase()}</em>
+            </p>
+            <p className="text-[2.4vw] md:text-[2.7vw]]">
+              {'a Wide Variety of Lotteries'.toUpperCase()}
+            </p>
+          </div>
+          <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
         </div>
-        <div className="-mt-[8vh]">
-          <img src={AboutDiv} />
+        <div className="">
+          <img src={AboutDiv}
+            alt='AboutDiv'
+            className='w-[60vw] h-[60vw]'
+          />
         </div>
       </div>
     </div>
