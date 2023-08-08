@@ -3,7 +3,7 @@ import { AboutDiv, AboutDiv2, AboutDiv3, check } from '../assets'
 
 export function Team2() {
   return (
-    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[40vw] mx-auto gap-[1vw]">
+    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[40vw] mx-auto gap-[1vw] mb-[20vw]">
       <div className="w-[20vw] h-[20vw] bg-[#fffbf8] shadow-md bg-opacity-50">
         <div className="flex flex-col items-start justify-start w-full h-full gap-[0.5vw] px-[2vw] py-[1vw]">
           <p className="text-[1.5vw] font-bold text-[#793300]">

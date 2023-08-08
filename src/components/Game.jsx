@@ -18,25 +18,25 @@ import {
 
 export function Lotteries() {
   return (
-    <div className="w-[100vw] min-h-[300vh] lg:min-h-[150vh] flex flex-col items-center justify-start gap-5 max-w-[70vw] mx-auto mt-20">
-      <div className="flex flex-col items-start justify-start h-full gap-[2vh]">
-        <p className="text-[2.5vw] lg:text-[1.5vw] text-[#E25000] ">
+    <div className="w-[100vw] min-h-[230vh] md:min-h-[150vh] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw]">
+      <div className="flex flex-col items-center justify-center h-full gap-[1vw]">
+        <p className="text-[2vw] font-bold text-[#E25000] ">
           {'LOTTERIES'.toUpperCase()}
         </p>
-        <p className="text-[2.5vw] lg:text-[1.5vw] max-w-lg text-[#793300]">
+        <p className="text-[2vw] font-bold text-[#793300]">
           {'GET EXCLUSIVE ONLINE  PROMOTIONS'.toUpperCase()}
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto gap-5">
-        <div className="flex flex-row items-center justify-between gap-5 flex-wrap">
+      <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto gap-[2vw]">
+        <div className="flex flex-row items-center justify-between gap-[2vw] flex-wrap">
           <img src={f1} alt="f1" />
           <img src={f2} alt="f2" />
         </div>
-        <div className="flex flex-row items-center justify-between gap-10 flex-wrap">
+        <div className="flex flex-row items-center justify-between gap-[3vw] flex-wrap">
           <img src={f3} alt="f3" />
           <img src={f4} alt="f4" />
         </div>
-        <div className="flex flex-row items-center justify-between gap-10 flex-wrap">
+        <div className="flex flex-row items-center justify-between gap-[3vw] flex-wrap">
           <img src={f5} alt="f5" />
           <img src={f6} alt="f6" />
           <img src={f7} alt="f7" />
@@ -48,13 +48,13 @@ export function Lotteries() {
 
 export function Banner() {
   return (
-    <div className="w-[100vw] h-[10vh] bg-[#0b3547] text-white mt-10">
+    <div className="w-[100vw] h-[10vh] bg-[#0b3547] text-white mt-[5vw]">
       <div className="w-full h-full max-w-[60vw] flex flex-row items-center justify-between mx-auto">
         <p className="text-[2.5vw] lg:text-[1.5vw] font-bold">
           If you have any query about lottery or anything !
         </p>
-        <div className="rounded-full w-[16vh] h-[5vh] grid place-content-center bg-gradient-to-r from-[#FF9F56] to-[#FF7A18]">
-          <p className="text-[2.5vw] lg:text-[0.8vw] font-bold">Contanct Us</p>
+        <div className="rounded-full w-[8vw] h-[3vw] grid place-content-center bg-gradient-to-r from-[#FF9F56] to-[#FF7A18]">
+          <p className="text-[0.8vw] font-bold">Contanct Us</p>
         </div>
       </div>
     </div>
@@ -65,10 +65,10 @@ export function Games() {
   return (
     <div className="flex flex-col items-start justify-center lg:px-6 lg:py-4 px-2 py-2 w-full max-w-[70vw] mx-auto">
       <div>
-        <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
+        <p className="text-[2.5vw] font-bold text-[#793300]">
           {'OUr Attractive games'.toUpperCase()}
         </p>
-        <hr className="h-[2vh] w-[15vw] bg-[#FF7429]" />
+        <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
       </div>
       <div className="flex flex-row items-center justify-center w-full max-w-[70vw] flex-wrap mx-auto gap-5 lg:gap-10">
         <div className="flex flex-col items-center justify-center text-[#793300] font-bold">
@@ -137,22 +137,24 @@ export function Games() {
 }
 export function Main() {
   return (
-    <div className="bg-game-bg bg-no-repeat bg-cover w-full h-[60vh] lg:h-[84vh] ">
-      <div className="flex flex-row items-center justify-around h-full gap-[5vh] px-6 py-4">
-        <div className="flex flex-col items-start justify-center h-full gap-[5vh]">
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold">
-            {'The brand new design'.toUpperCase()}
+    <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] mt-[20vw] md:mt-[3vw]">
+      <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
+        <div className="flex flex-col items-start justify-center h-full gap-[2vw] max-w-[40vw] ">
+          <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">
+            {'The New Brand new design'.toUpperCase()}
           </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] text-[#E25000] font-bold">
-            {'Now we are upgraded'.toUpperCase()}
-          </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] max-w-md font-bold">
-            {'A comprehensive upgrade that blends well with the Mongolian aesthetic'.toUpperCase()}
-          </p>
-          <hr className="h-[2vh] w-[15vw] bg-[#FF7429]" />
+          <div>
+            <p className="text-[2.7vw] md:text-[3.0vw] font-bold text-[#f54200]">
+              <em>{'Now we are upgraded'.toUpperCase()}</em>
+            </p>
+            <p className="text-[2.4vw] md:text-[2.7vw]]">
+              {'a comprehensive upgrade that blends with mongolian aesthetic'.toUpperCase()}
+            </p>
+          </div>
+          <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
         </div>
-        <div className="-mt-[8vh]">
-          <img src={GameDiv} />
+        <div className="">
+          <img src={GameDiv} alt="GameDiv" className="w-[40vw] h-[40vw]" />
         </div>
       </div>
     </div>

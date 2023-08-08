@@ -33,7 +33,7 @@ export function Winner() {
         {'Reveal the Winning Numbers'.toUpperCase()}
       </h1>
       <div
-        className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw] md:py-4 md:px-6`}
+        className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
         <div className="flex flex-row items-center justify-between w-full gap-[2vw] md:px-6 md:py-2">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
