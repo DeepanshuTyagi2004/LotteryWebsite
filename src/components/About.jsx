@@ -3,99 +3,95 @@ import { AboutDiv, AboutDiv2, AboutDiv3, check } from '../assets'
 
 export function Team2() {
   return (
-    <div className="bg-about-bg2 bg-no-repeat bg-cover w-full h-[110vh] ">
-      <div className="flex flex-row items-start justify-center px-6 py-4 w-full max-w-[80vw] h-[110vh] mx-auto gap-5 mt-[20]">
-        <div className="w-[20vw] h-[40vh] bg-[#fffbf8] shadow-md bg-opacity-50">
-          <div className="flex flex-col items-start justify-start w-full h-full gap-2 px-2 py-2 lg:px-6 lg:py-4">
-            <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
-              {'MEET OUR TEAM'.toUpperCase()}
-            </p>
-            <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
-              {'WE BRING IT  '.toUpperCase()}
-            </p>
-            <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
-              INTO <span className="text-[#FF6B3A]">CHARITY FUN</span>
-            </p>
-            <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              laboriosam minus cumque.
-            </p>
-            <div className="flex flex-row items-center justify-between w-full max-w-xs flex-wrap ">
-              <div className="flex flex-row items-center justify-center gap-2">
-                <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-                <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                  Lorem ipsum.
-                </p>
-              </div>
-              <div className="flex flex-row items-center justify-center gap-2">
-                <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-                <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                  Lorem ipsum.
-                </p>
-              </div>
+    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[40vw] mx-auto gap-[1vw]">
+      <div className="w-[20vw] h-[20vw] bg-[#fffbf8] shadow-md bg-opacity-50">
+        <div className="flex flex-col items-start justify-start w-full h-full gap-[0.5vw] px-[2vw] py-[1vw]">
+          <p className="text-[1.5vw] font-bold text-[#793300]">
+            {'MEET OUR TEAM'.toUpperCase()}
+          </p>
+          <p className="text-[1.5vw] font-bold text-[#793300]">
+            {'WE BRING IT  '.toUpperCase()}
+          </p>
+          <p className="text-[1.5vw] font-bold text-[#793300]">
+            INTO <span className="text-[#FF6B3A]">CHARITY FUN</span>
+          </p>
+          <p className="text-[0.6vw] max-w-[15vw]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            laboriosam minus cumque.
+          </p>
+          <div className="flex flex-row items-center justify-between w-full max-w-[12vw] mx-auto">
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
             </div>
-            <div className="flex flex-row items-center justify-between w-full max-w-xs flex-wrap ">
-              <div className="flex flex-row items-center justify-center gap-2">
-                <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-                <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                  Lorem ipsum.
-                </p>
-              </div>
-              <div className="flex flex-row items-center justify-center gap-2">
-                <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-                <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                  Lorem ipsum.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-end mt-10 w-full">
-              <div className="rounded-full w-[10vh] h-[3vh] bg-[#FF6B3A] grid place-content-center"></div>
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
             </div>
           </div>
+          <div className="flex flex-row items-center justify-between w-full max-w-[12vw] mx-auto">
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
+            </div>
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
+            </div>
+          </div>
+          <div className="flex flex-row items-center justify-end mt-[2vw] w-full">
+            <div className="rounded-full w-[5vw] h-[1.5vw] bg-[#FF6B3A] grid place-content-center"></div>
+          </div>
         </div>
-        <div className="w-[15vw] h-[40vh] bg-[#ffffff] shadow-md">
-          <div className="flex flex-col items-center justify-start w-full h-full gap-5">
-            <img
-              src={AboutDiv3}
-              alt="AboutDiv3"
-              className="object-cover w-full h-[60%]"
-            />
-            <p className="text-[2.5vw] lg:text-[0.9vw] text-black]">
+      </div>
+      <div className="w-[15vw] h-[20vw] bg-[#ffffff] shadow-md">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-[1vw]">
+          <img
+            src={AboutDiv3}
+            alt="AboutDiv3"
+            className="object-cover w-full h-[60%]"
+          />
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-[0.9vw] text-black]">
               {'Edwerd Newgate'.toUpperCase()}
             </p>
-            <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw] px-2 py-2 lg:px-6 lg:py-4">
+            <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               laboriosam minus cumque.
             </p>
           </div>
         </div>
-        <div className="w-[15vw] h-[40vh] bg-[#ffffff] shadow-md">
-          <div className="flex flex-col items-center justify-start w-full h-full gap-5">
-            <img
-              src={AboutDiv3}
-              alt="AboutDiv3"
-              className="object-cover w-full h-[60%]"
-            />
-            <p className="text-[2.5vw] lg:text-[0.9vw] text-black]">
+      </div>
+      <div className="w-[15vw] h-[20vw] bg-[#ffffff] shadow-md">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-[1vw]">
+          <img
+            src={AboutDiv3}
+            alt="AboutDiv3"
+            className="object-cover w-full h-[60%]"
+          />
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-[0.9vw] text-black]">
               {'Edwerd Newgate'.toUpperCase()}
             </p>
-            <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw] px-2 py-2 lg:px-6 lg:py-4">
+            <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               laboriosam minus cumque.
             </p>
           </div>
         </div>
-        <div className="w-[15vw] h-[40vh] bg-[#ffffff] shadow-md">
-          <div className="flex flex-col items-center justify-start w-full h-full gap-5">
-            <img
-              src={AboutDiv3}
-              alt="AboutDiv3"
-              className="object-cover w-full h-[60%]"
-            />
-            <p className="text-[2.5vw] lg:text-[0.9vw] text-black]">
+      </div>
+      <div className="w-[15vw] h-[20vw] bg-[#ffffff] shadow-md">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-[1vw]">
+          <img
+            src={AboutDiv3}
+            alt="AboutDiv3"
+            className="object-cover w-full h-[60%]"
+          />
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-[0.9vw] text-black]">
               {'Edwerd Newgate'.toUpperCase()}
             </p>
-            <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw] px-2 py-2 lg:px-6 lg:py-4">
+            <p className="text-[0.6vw] lg:max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               laboriosam minus cumque.
             </p>
@@ -108,100 +104,98 @@ export function Team2() {
 
 export function Team() {
   return (
-    <div className="flex flex-row items-center justify-center px-6 py-4 w-full max-w-[90vw] h-[60vh] mx-auto gap-5">
-      <div className="w-[15vw] h-[40vh] bg-[#ffffff] shadow-md">
-        <div className="flex flex-col items-center justify-start w-full h-full gap-5">
+    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[40vw] mx-auto gap-[1vw]">
+      <div className="w-[15vw] h-[20vw] bg-[#ffffff] shadow-md">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-[1vw]">
           <img
             src={AboutDiv3}
             alt="AboutDiv3"
             className="object-cover w-full h-[60%]"
           />
-          <p className="text-[2.5vw] lg:text-[0.9vw] text-black]">
-            {'Edwerd Newgate'.toUpperCase()}
-          </p>
-          <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw] px-2 py-2 lg:px-6 lg:py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            laboriosam minus cumque.
-          </p>
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-[0.9vw] text-black]">
+              {'Edwerd Newgate'.toUpperCase()}
+            </p>
+            <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              laboriosam minus cumque.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="w-[15vw] h-[40vh] bg-[#ffffff] shadow-md">
-        <div className="flex flex-col items-center justify-start w-full h-full gap-5">
+      <div className="w-[15vw] h-[20vw] bg-[#ffffff] shadow-md">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-[1vw]">
           <img
             src={AboutDiv3}
             alt="AboutDiv3"
             className="object-cover w-full h-[60%]"
           />
-          <p className="text-[2.5vw] lg:text-[0.9vw] text-black]">
-            {'Edwerd Newgate'.toUpperCase()}
-          </p>
-          <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw] px-2 py-2 lg:px-6 lg:py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            laboriosam minus cumque.
-          </p>
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-[0.9vw] text-black]">
+              {'Edwerd Newgate'.toUpperCase()}
+            </p>
+            <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              laboriosam minus cumque.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="w-[15vw] h-[40vh] bg-[#ffffff] shadow-md">
-        <div className="flex flex-col items-center justify-start w-full h-full gap-5">
+      <div className="w-[15vw] h-[20vw] bg-[#ffffff] shadow-md">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-[1vw]">
           <img
             src={AboutDiv3}
             alt="AboutDiv3"
             className="object-cover w-full h-[60%]"
           />
-          <p className="text-[2.5vw] lg:text-[0.9vw] text-black]">
-            {'Edwerd Newgate'.toUpperCase()}
-          </p>
-          <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw] px-2 py-2 lg:px-6 lg:py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            laboriosam minus cumque.
-          </p>
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-[0.9vw] text-black]">
+              {'Edwerd Newgate'.toUpperCase()}
+            </p>
+            <p className="text-[0.6vw] lg:max-w-[15vw] px-[1.5vw] py-[1vw]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              laboriosam minus cumque.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="w-[20vw] h-[40vh] bg-[#fffbf8] shadow-md bg-opacity-50">
-        <div className="flex flex-col items-start justify-start w-full h-full gap-2 px-2 py-2 lg:px-6 lg:py-4">
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
+      <div className="w-[20vw] h-[20vw] bg-[#fffbf8] shadow-md bg-opacity-50">
+        <div className="flex flex-col items-start justify-start w-full h-full gap-[0.5vw] px-[2vw] py-[1vw]">
+          <p className="text-[1.5vw] font-bold text-[#793300]">
             {'MEET OUR TEAM'.toUpperCase()}
           </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
+          <p className="text-[1.5vw] font-bold text-[#793300]">
             {'WE BRING IT  '.toUpperCase()}
           </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
+          <p className="text-[1.5vw] font-bold text-[#793300]">
             INTO <span className="text-[#FF6B3A]">CHARITY FUN</span>
           </p>
-          <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
+          <p className="text-[0.6vw] max-w-[15vw]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
             laboriosam minus cumque.
           </p>
-          <div className="flex flex-row items-center justify-between w-full max-w-xs flex-wrap">
-            <div className="flex flex-row items-center justify-center gap-2">
-              <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-              <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                Lorem ipsum.
-              </p>
+          <div className="flex flex-row items-center justify-between w-full max-w-[12vw] mx-auto">
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-2">
-              <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-              <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                Lorem ipsum.
-              </p>
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-between w-full max-w-xs flex-wrap ">
-            <div className="flex flex-row items-center justify-center gap-2">
-              <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-              <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                Lorem ipsum.
-              </p>
+          <div className="flex flex-row items-center justify-between w-full max-w-[12vw] mx-auto">
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-2">
-              <img src={check} alt="check" className="w-[3vh] h-[3vh]" />
-              <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
-                Lorem ipsum.
-              </p>
+            <div className="flex flex-row items-center justify-center gap-[0.5vw]">
+              <img src={check} alt="check" className="w-[1vw] h-[1vw]" />
+              <p className="text-[0.6vw] max-w-[15vw]">Lorem ipsum.</p>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-end mt-10 w-full">
-            <div className="rounded-full w-[10vh] h-[3vh] bg-[#FF6B3A] grid place-content-center"></div>
+          <div className="flex flex-row items-center justify-end mt-[2vw] w-full">
+            <div className="rounded-full w-[5vw] h-[1.5vw] bg-[#FF6B3A] grid place-content-center"></div>
           </div>
         </div>
       </div>
@@ -211,20 +205,22 @@ export function Team() {
 
 export function Lottery() {
   return (
-    <div className="flex flex-row items-center justify-center px-6 py-4 w-full lg:max-w-[90vw] h-[60vh] mx-auto flex-wrap">
-      <div className="w-[20vw] h-[40vh] bg-[#fff5ed]">
-        <div className="flex flex-col items-start justify-center px-2 py-2 lg:px-6 lg:py-4 gap-5">
-          <div className="w-full py-4">
-            <hr className="h-[0.2vh] w-full bg-black" />
-            <hr className="h-[2vh] w-[10vw] bg-[#FF7429] -mt-[0.01vh]" />
+    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[40vw] mx-auto">
+      <div className="w-[20vw] h-[20vw] bg-[#fff5ed]">
+        <div className="flex flex-col items-start justify-center px-[2vw] py-[2vw] gap-[1vw]">
+          <div className="w-full py-[1vw]">
+            <hr className="h-[0.2vw] w-full bg-black" />
+            <hr className="h-[1vw] w-[10vw] bg-[#FF7429] -mt-[0.005vw]" />
           </div>
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#FF7429]">
-            {'Mongolia'.toUpperCase()}
-          </p>
-          <p className="text-[2.5vw] lg:text-[1.5vw] font-bold">
-            {'National Lottery'.toUpperCase()}
-          </p>
-          <p className="text-[1.2vw] lg:text-[0.6vw] lg:max-w-[15vw]">
+          <div className="mt-[1vw]">
+            <p className="text-[1.2vw] md:text-[1.5vw] text-[#FF7429]">
+              {'Mongolia'.toUpperCase()}
+            </p>
+            <p className="text-[1.2vw] md:text-[1.5vw] font-bold text-[#832e00]">
+              {'National Lottery'.toUpperCase()}
+            </p>
+          </div>
+          <p className="text-[0.5vw] max-w-[15vw] text-[#b7b4b2]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
             laboriosam minus cumque. Excepturi aspernatur iusto, velit labore
             voluptatum officia architecto corporis quasi numquam pariatur nihil
@@ -232,20 +228,20 @@ export function Lottery() {
           </p>
         </div>
       </div>
-      <div className="w-[20vw] h-[40vh] bg-[#fff5ed]">
+      <div className="w-[20vw] h-[20vw] bg-[#fff5ed]">
         <img
           src={AboutDiv3}
           alt="AboutDiv3"
           className="object-cover w-full h-full"
         />
       </div>
-      <div className="w-[14vw] h-[40vh] bg-[#fe984e]">
-        <div className="flex flex-col items-start justify-center px-2 py-2 lg:px-6 lg:py-4 gap-5 text-white">
-          <p className="text-[2.5vw] lg:text-[0.6vw] font-bold ">
+      <div className="w-[14vw] h-[20vw] bg-[#fe984e]">
+        <div className="flex flex-col items-start justify-center px-[1vw] py-[1vw] gap-[2vw] text-white">
+          <p className="text-[0.6vw] font-bold ">
             {'Find Charity'.toUpperCase()}
           </p>
 
-          <p className="text-[1.2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+          <p className="text-[0.5vw] max-w-[15vw]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
             laboriosam minus cumque. Excepturi aspernatur iusto, velit labore
             voluptatum officia architecto corporis quasi numquam pariatur nihil
@@ -253,13 +249,13 @@ export function Lottery() {
           </p>
         </div>
       </div>
-      <div className="w-[14vw] h-[40vh] bg-[#ffbf8f]">
-        <div className="flex flex-col items-start justify-center px-2 py-2 lg:px-6 lg:py-4 gap-5 text-white">
-          <p className="text-[2.5vw] lg:text-[0.6vw] font-bold ">
+      <div className="w-[14vw] h-[20vw] bg-[#ffbf8f]">
+        <div className="flex flex-col items-start justify-center px-[1vw] py-[1vw] gap-[2vw] text-white">
+          <p className="text-[0.6vw] font-bold ">
             {'Find Charity'.toUpperCase()}
           </p>
 
-          <p className="text-[1.2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+          <p className="text-[0.5vw] max-w-[15vw]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
             laboriosam minus cumque. Excepturi aspernatur iusto, velit labore
             voluptatum officia architecto corporis quasi numquam pariatur nihil
@@ -267,13 +263,13 @@ export function Lottery() {
           </p>
         </div>
       </div>
-      <div className="w-[14vw] h-[40vh] bg-[#ffdbc1]">
-        <div className="flex flex-col items-start justify-center px-2 py-2 lg:px-6 lg:py-4 gap-5 text-white">
-          <p className="text-[2.5vw] lg:text-[0.6vw] font-bold ">
+      <div className="w-[14vw] h-[20vw] bg-[#ffdbc1]">
+        <div className="flex flex-col items-start justify-center px-[1vw] py-[1vw] gap-[2vw] text-white">
+          <p className="text-[0.6vw] font-bold ">
             {'Find Charity'.toUpperCase()}
           </p>
 
-          <p className="text-[1.2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+          <p className="text-[0.5vw] max-w-[15vw]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
             laboriosam minus cumque. Excepturi aspernatur iusto, velit labore
             voluptatum officia architecto corporis quasi numquam pariatur nihil
@@ -307,11 +303,7 @@ export function Mission() {
           accident, sometimes on purpose (injected humor and the like).
         </p>
       </div>
-      <img
-        src={AboutDiv2}
-        alt="AboutDiv2"
-        className="w-[30vw] h-[30vw]"
-      />
+      <img src={AboutDiv2} alt="AboutDiv2" className="w-[30vw] h-[30vw]" />
     </div>
   )
 }
@@ -335,10 +327,7 @@ export function Main() {
           <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
         </div>
         <div className="">
-          <img src={AboutDiv}
-            alt='AboutDiv'
-            className='w-[60vw] h-[60vw]'
-          />
+          <img src={AboutDiv} alt="AboutDiv" className="w-[60vw] h-[60vw]" />
         </div>
       </div>
     </div>
