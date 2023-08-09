@@ -1,10 +1,10 @@
-import { NewsBg, NewsLetter,  Stuff } from '../assets'
+import { NewsBg, NewsLetter, Stuff } from "../assets";
 
 export function Media() {
   return (
     <div className="min-w-[100vw] min-h-[60vw] flex flex-col items-center justify-center">
       <h1 className="text-[#793300] text-[3.5vw] mb-[2vw]">
-        {'CHRONICLE OF MONGOLIA'.toUpperCase()}
+        {"CHRONICLE OF MONGOLIA".toUpperCase()}
       </h1>
       <div className="flex flex-row items-start justify-center gap-[2vw] px-[3vw] py-[1vw] w-full">
         <div className="flex flex-col items-start justify-center gap-[2vw]">
@@ -15,7 +15,7 @@ export function Media() {
           />
           <p className="text-[1.5vw] text-[#FF6B00]">COUNTRY NEWS</p>
           <p className="text-[2vw] text-[#FF6B00]">
-            {'Lorem Ipsum'.toUpperCase()}
+            {"Lorem Ipsum".toUpperCase()}
           </p>
           <p className="text-[1vw] max-w-[32vw]">
             There are many variations of passages of Lorem Ipsum available, but
@@ -36,7 +36,7 @@ export function Media() {
             />
             <p className="text-[1vw] text-[#FF6B00]">COUNTRY NEWS</p>
             <p className="text-[1.5vw] text-[#FF6B00]">
-              {'Lorem Ipsum'.toUpperCase()}
+              {"Lorem Ipsum".toUpperCase()}
             </p>
             <p className="text-[0.5vw] max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
@@ -54,7 +54,7 @@ export function Media() {
             />
             <p className="text-[1vw] text-[#FF6B00]">COUNTRY NEWS</p>
             <p className="text-[1.5vw] text-[#FF6B00]">
-              {'Lorem Ipsum'.toUpperCase()}
+              {"Lorem Ipsum".toUpperCase()}
             </p>
             <p className="text-[0.5vw] max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
@@ -74,7 +74,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-[0.5vw]">
               <p className="text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -94,7 +94,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -114,7 +114,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -134,7 +134,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -148,30 +148,30 @@ export function Media() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Main() {
   return (
     <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] mt-[15vw] md:mt-[1vw]">
       {/* <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full "> */}
-        <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
-          <div className="flex flex-col items-start justify-center h-full gap-[2vw] max-w-[30vw] mx-auto ">
+      <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
+        <div className="flex flex-col items-start justify-center h-full gap-[2vw] max-w-[30vw] mx-auto ">
           <p className="text-[3.2vw] md:text-[3.5vw] font-bold text-[#832b00]">
-              <em>{'NEWS & public welfare'.toUpperCase()}</em>
-            </p>
-            {/* <p className="text-[2.5vw] lg:text-[1.5vw] max-w-md font-bold">
+            <em>{"NEWS & public welfare".toUpperCase()}</em>
+          </p>
+          {/* <p className="text-[2.5vw] lg:text-[1.5vw] max-w-md font-bold">
               {'Try Your Luck NOw！Awesome Prizes Waiting for you'.toUpperCase()}
             </p> */}
-            <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
-          </div>
-          <div className="-mt-[3vw]">
-            <img src={NewsBg} alt="NewsBg" className="w-[56vw] h-[53.9vw]" />
-          </div>
+          <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
+        </div>
+        <div className="-mt-[3vw]">
+          <img src={NewsBg} alt="NewsBg" className="w-[56vw] h-[53.9vw]" />
+        </div>
         {/* </div> */}
       </div>
     </div>
-  )
+  );
 }
 export function HotNews() {
   return (
@@ -302,7 +302,7 @@ export function HotNews() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function AdBanner() {
@@ -317,7 +317,7 @@ export function AdBanner() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 function News() {
   return (
@@ -327,6 +327,6 @@ function News() {
       <HotNews />
       <AdBanner />
     </>
-  )
+  );
 }
-export default News
+export default News;

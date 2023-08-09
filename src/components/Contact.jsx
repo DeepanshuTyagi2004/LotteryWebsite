@@ -12,7 +12,10 @@ import {
 
 export function Main() {
   return (
-    <div className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[44vw] mt-[20vw] md:mt-0">
+    <div
+      id="contactus"
+      className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[44vw] mt-[20vw] md:mt-0"
+    >
       <div className="bg-notFound-div bg-no-repeat bg-contain w-full h-full ">
         <div className="flex flex-row items-center justify-evenly h-full gap-[5vh]">
           <div className="flex flex-col items-start justify-center h-full gap-[5vh] px-2 py-2">
@@ -49,7 +52,11 @@ export function ContactInfo() {
               </p> */}
             </div>
             <div className="flex items-center justify-center ">
-              <img src={NewsLetter} alt="NewsLetter" className="-mt-[1vw] w-[25vw] " />
+              <img
+                src={NewsLetter}
+                alt="NewsLetter"
+                className="-mt-[1vw] w-[25vw] "
+              />
             </div>
           </div>
           <form className="w-full max-w-xs flex flex-col gap-8">

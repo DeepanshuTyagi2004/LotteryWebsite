@@ -8,18 +8,18 @@ import {
   PowerBall,
   PrizeDiv2,
   f1,
-} from '../assets'
-import { useState } from 'react'
+} from "../assets";
+import { useState } from "react";
 
 export function Winner() {
-  const [show, setShow] = useState(false)
-  const [button, setButton] = useState('VIEW MORE')
+  const [show, setShow] = useState(false);
+  const [button, setButton] = useState("VIEW MORE");
   const handleClick = () => {
     setButton(() => {
-      return button == 'VIEW MORE' ? 'VIEW LESS' : 'VIEW MORE'
-    })
-    setShow(!show)
-  }
+      return button == "VIEW MORE" ? "VIEW LESS" : "VIEW MORE";
+    });
+    setShow(!show);
+  };
   return (
     <div className="prize-bg2 bg-no-repeat bg-cover w-[100vw] flex flex-col items-center justify-start mt-[5vw] gap-[4vw] mb-[30vw]">
       <div
@@ -46,7 +46,7 @@ export function Winner() {
               <div className="flex flex-row items-center justify-between w-full">
                 <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -128,7 +128,7 @@ export function Winner() {
               <div className="flex flex-row items-center justify-between w-full">
                 <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -210,7 +210,7 @@ export function Winner() {
               <div className="flex flex-row items-center justify-between w-full">
                 <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -292,7 +292,7 @@ export function Winner() {
               <div className="flex flex-row items-center justify-between w-full">
                 <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -352,7 +352,7 @@ export function Winner() {
       </div>
       <div
         className={`${
-          show ? 'block' : 'hidden'
+          show ? "block" : "hidden"
         } bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
         <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
@@ -376,7 +376,7 @@ export function Winner() {
               <div className="flex flex-row items-center justify-between w-full">
                 <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -436,7 +436,7 @@ export function Winner() {
       </div>
       <div
         className={`${
-          show ? 'block' : 'hidden'
+          show ? "block" : "hidden"
         } bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
         <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
@@ -460,7 +460,7 @@ export function Winner() {
               <div className="flex flex-row items-center justify-between w-full">
                 <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -525,39 +525,39 @@ export function Winner() {
         {button}
       </div>
     </div>
-  )
+  );
 }
 
 export function Result() {
-  const [value1, setValue1] = useState('')
-  const [value2, setValue2] = useState('')
-  const [value3, setValue3] = useState('')
-  const [value4, setValue4] = useState('')
-  const [value5, setValue5] = useState('')
-  const [value6, setValue6] = useState('')
+  const [value1, setValue1] = useState("");
+  const [value2, setValue2] = useState("");
+  const [value3, setValue3] = useState("");
+  const [value4, setValue4] = useState("");
+  const [value5, setValue5] = useState("");
+  const [value6, setValue6] = useState("");
   const onChangeHandler1 = (e) => {
-    setValue1(e.target.value)
-  }
+    setValue1(e.target.value);
+  };
   const onChangeHandler2 = (e) => {
-    setValue2(e.target.value)
-  }
+    setValue2(e.target.value);
+  };
   const onChangeHandler3 = (e) => {
-    setValue3(e.target.value)
-  }
+    setValue3(e.target.value);
+  };
   const onChangeHandler4 = (e) => {
-    setValue4(e.target.value)
-  }
+    setValue4(e.target.value);
+  };
   const onChangeHandler5 = (e) => {
-    setValue5(e.target.value)
-  }
+    setValue5(e.target.value);
+  };
   const onChangeHandler6 = (e) => {
-    setValue6(e.target.value)
-  }
+    setValue6(e.target.value);
+  };
   return (
     <div className="flex flex-col items-start justify-center gap-[5vw] px-[3vw] py-[2vw] w-full max-w-[70vw] mx-auto">
       <div>
         <p className="text-[3.5vw] font-bold text-[#793300]">
-          <em>{'rESULT cHECKING'.toUpperCase()}</em>
+          <em>{"rESULT cHECKING".toUpperCase()}</em>
         </p>
         <hr className="h-[1vw] w-[15vw] bg-[#FF7429] mt-[1vw]" />
       </div>
@@ -565,7 +565,7 @@ export function Result() {
         <div className="w-[25vw] h-[12vw] bg-[#fff0e7] flex flex-col justify-center items-start px-[1vw] py-[1vw] rounded-[1vw]">
           <form className="w-[25vw] h-[12vw] flex flex-col justify-center items-start px-[1vw] py-[1vw] gap-[0.5vw]">
             <label htmlFor="games" className="text-[1.2vw] text-[#e25000]">
-              {'Select a Game'.toUpperCase()}
+              {"Select a Game".toUpperCase()}
             </label>
 
             <select
@@ -585,7 +585,7 @@ export function Result() {
         <div className="w-[25vw] h-[12vw] bg-[#fff0e7] flex flex-col justify-center items-start px-[1vw] py-[1vw] rounded-[1vw]">
           <form className="w-[25vw] h-[12vw] flex flex-col justify-center items-start px-[1vw] py-[1vw] gap-[0.5vw]">
             <label htmlFor="games" className="text-[1.2vw] text-[#e25000]">
-              {'Pick a date'.toUpperCase()}
+              {"Pick a date".toUpperCase()}
             </label>
 
             <select
@@ -605,7 +605,7 @@ export function Result() {
         <div className="w-[25vw] h-[12vw] bg-[#fff0e7] flex flex-col justify-center items-start px-[1vw] py-[1vw] rounded-[1vw]">
           <form className="w-[25vw] h-[12vw] flex flex-col justify-center items-start px-[1vw] py-[1vw] gap-[0.5vw]">
             <label htmlFor="numbers" className="text-[1.2vw] text-[#e25000]">
-              {'Enter Your Numbers'.toUpperCase()}
+              {"Enter Your Numbers".toUpperCase()}
             </label>
             <div className="flex flex-row items-center justify-between w-full max-w-[20vw]">
               <input
@@ -656,7 +656,7 @@ export function Result() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Main() {
@@ -669,14 +669,14 @@ export function Main() {
           </div>
           <div className="flex flex-col items-start justify-center h-full gap-[2vw]">
             <p className="text-[3.5vw] text-[#832b00]">
-              {'PRIZE GAMING'.toUpperCase()}
+              {"PRIZE GAMING".toUpperCase()}
             </p>
             <div>
               <p className="text-[2.7vw]">
-                {'TRY YOUR LUCK NOW!'.toUpperCase()}
+                {"TRY YOUR LUCK NOW!".toUpperCase()}
               </p>
               <p className="text-[2.7vw]">
-                {'AWESOME PRIZES WAITING FOR YOU'.toUpperCase()}
+                {"AWESOME PRIZES WAITING FOR YOU".toUpperCase()}
               </p>
             </div>
             <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
@@ -684,7 +684,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Prize() {
@@ -694,6 +694,6 @@ function Prize() {
       <Result />
       <Winner />
     </div>
-  )
+  );
 }
-export default Prize
+export default Prize;
