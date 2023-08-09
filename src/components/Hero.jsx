@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import {
   HeroBg,
   HeroMockUp,
@@ -23,14 +23,14 @@ import {
   facebook2,
   youtube2,
   twitter2,
-} from '../assets'
-import { Footer } from './Footer'
+} from "../assets";
+import { Footer } from "./Footer";
 
 export function Winner() {
   return (
     <div className="bg-hero-bg2 w-[100vw] min-h-[60vh] flex flex-col items-center justify-center mt-24 gap-5">
       <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw]">
-        {'Reveal the Winning Numbers'.toUpperCase()}
+        {"Reveal the Winning Numbers".toUpperCase()}
       </h1>
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
@@ -62,7 +62,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -129,11 +129,11 @@ export function Winner() {
         </div>
       </div>
       <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw]">
-        {'Hot Games, Endless Excitement!'.toUpperCase()}
+        {"Hot Games, Endless Excitement!".toUpperCase()}
       </h1>
       {}
       <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw]">
-        {'Why Choose Us?'.toUpperCase()}
+        {"Why Choose Us?".toUpperCase()}
       </h1>
       <div className="flex flex-wrap flex-row justify-center items-center mt-[3vw] md:mt-[8vw]">
         <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw] ">
@@ -200,16 +200,15 @@ export function Winner() {
             </p>
           </div>
         </div>
-        
       </div>
     </div>
-  )
+  );
 }
 
 export function Slider() {
-  const [active, setActive] = useState(0)
+  const [active, setActive] = useState(0);
   return (
-    <div className="w-[100vw] h-[60vw] relative top-20">
+    <div id="home" className="w-[100vw] h-[60vw] relative top-20">
       <img
         src={HeroBg}
         alt="HeroBg"
@@ -228,7 +227,7 @@ export function Slider() {
               </h2>
               <p className="text-[1.2vw] md:text-[1.5vw] max-w-[42vw]">
                 The MNL9 Mobile App is now available on all iOS & Android
-                devices.{' '}
+                devices.{" "}
               </p>
             </div>
             <div className="flex flex-row justify-start items-center">
@@ -267,24 +266,24 @@ export function Slider() {
                 key={index}
                 className={`${
                   active == index
-                    ? 'w-[3.5vw] bg-[#FF6C00]'
-                    : 'w-[0.8vw] bg-[#676767]'
+                    ? "w-[3.5vw] bg-[#FF6C00]"
+                    : "w-[0.8vw] bg-[#676767]"
                 } h-[0.8vw] rounded-full transition-all cursor-pointer`}
                 onClick={() => setActive(index)}
               />
-            )
+            );
           })}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Media() {
   return (
     <div className="bg-hero-bg3 min-w-[100vw] min-h-[100vh] bg-no-repeat bg-cover flex flex-col items-center justify-center">
       <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw]">
-        {'News & public Welfare'.toUpperCase()}
+        {"News & public Welfare".toUpperCase()}
       </h1>
       <div className="flex flex-row flex-wrap items-start justify-center gap-5 px-6 py-2 w-full">
         <div className="flex flex-col items-start justify-center gap-5">
@@ -297,7 +296,7 @@ export function Media() {
             COUNTRY NEWS
           </p>
           <p className="text-[3vw] lg:text-[2vw] text-[#FF6B00]">
-            {'Lorem Ipsum'.toUpperCase()}
+            {"Lorem Ipsum".toUpperCase()}
           </p>
           <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[32vw]">
             There are many variations of passages of Lorem Ipsum available, but
@@ -320,7 +319,7 @@ export function Media() {
               COUNTRY NEWS
             </p>
             <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
-              {'Lorem Ipsum'.toUpperCase()}
+              {"Lorem Ipsum".toUpperCase()}
             </p>
             <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
@@ -342,7 +341,7 @@ export function Media() {
               COUNTRY NEWS
             </p>
             <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
-              {'Lorem Ipsum'.toUpperCase()}
+              {"Lorem Ipsum".toUpperCase()}
             </p>
             <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
@@ -364,7 +363,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-2">
               <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -386,7 +385,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-2">
               <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -408,7 +407,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-2">
               <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -430,7 +429,7 @@ export function Media() {
             />
             <div className="flex flex-col items-start justify-center gap-2">
               <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
-                {'Lorem Ipsum'.toUpperCase()}
+                {"Lorem Ipsum".toUpperCase()}
               </p>
               <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
@@ -446,7 +445,7 @@ export function Media() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Subscribe() {
@@ -456,7 +455,7 @@ export function Subscribe() {
         <div className="flex flex-row justify-center items-center rounded-[5vw] overflow-hidden w-[90vw] h-[40vw] bg-white shadow-xl gap-[1vw] flex-wrap-reverse">
           <div className="flex flex-col items-start justify-center gap-[3vw] pl-[4vw] md:w-[45vw] md:h-[40vw]">
             <p className="text-[2.2vw] lg:text-[2.5vw] text-[#793300]">
-              {'More Provinces Coming Soon'.toUpperCase()}
+              {"More Provinces Coming Soon".toUpperCase()}
             </p>
             <p className="text-[0.9vw] lg:text-[1.2vw] max-w-[35vw] text-[#FE9345]">
               REGISTER TO RECEIVE NOTIFICATIONS WHEN NATIONAL LOTTERY LAUNCHES
@@ -484,24 +483,22 @@ export function Subscribe() {
           </div>
           <div className="block bg-Div-four w-[44vw] h-[40vw] bg-cover bg-no-repeat">
             <div className="grid place-content-center w-[40vw] h-[40vw]">
-              <img src={Books} alt="Books"
-                className='w-[35vw] h-[35vw]'
-              />
+              <img src={Books} alt="Books" className="w-[35vw] h-[35vw]" />
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Testimonial() {
-  const [active, setActive] = useState(0)
+  const [active, setActive] = useState(0);
   return (
     <div className="w-[100vw] h-[110vh] bg-hero-bg5 bg-no-repeat bg-cover">
       <div className="flex flex-col items-center justify-center gap-10">
         <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw] mt-20">
-          {'Testimonial'.toUpperCase()}
+          {"Testimonial".toUpperCase()}
         </h1>
         <div className="flex flex-row items-center justify-around gap-5">
           <div className="relative flex flex-col items-center justify-start w-[45vh] h-[30vh]">
@@ -572,17 +569,17 @@ export function Testimonial() {
                 key={index}
                 className={`${
                   active == index
-                    ? 'w-[3.5vw] bg-[#FF6C00]'
-                    : 'w-[0.8vw] bg-[#676767]'
+                    ? "w-[3.5vw] bg-[#FF6C00]"
+                    : "w-[0.8vw] bg-[#676767]"
                 } h-[0.8vw] rounded-full transition-all cursor-pointer`}
                 onClick={() => setActive(index)}
               />
-            )
+            );
           })}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Hero() {
@@ -594,7 +591,7 @@ function Hero() {
       <Subscribe />
       <Testimonial />
     </>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

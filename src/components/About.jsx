@@ -1,5 +1,5 @@
-import { Route, BrowserRouter as Router } from 'react-router-dom'
-import { AboutDiv, AboutDiv2, AboutDiv3, check } from '../assets'
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import { AboutDiv, AboutDiv2, AboutDiv3, check } from "../assets";
 
 export function Team2() {
   return (
@@ -7,10 +7,10 @@ export function Team2() {
       <div className="w-[20vw] h-[20vw] bg-[#fffbf8] shadow-md bg-opacity-50">
         <div className="flex flex-col items-start justify-start w-full h-full gap-[0.5vw] px-[2vw] py-[1vw]">
           <p className="text-[1.5vw] font-bold text-[#793300]">
-            {'MEET OUR TEAM'.toUpperCase()}
+            {"MEET OUR TEAM".toUpperCase()}
           </p>
           <p className="text-[1.5vw] font-bold text-[#793300]">
-            {'WE BRING IT  '.toUpperCase()}
+            {"WE BRING IT  ".toUpperCase()}
           </p>
           <p className="text-[1.5vw] font-bold text-[#793300]">
             INTO <span className="text-[#FF6B3A]">CHARITY FUN</span>
@@ -53,7 +53,7 @@ export function Team2() {
           />
           <div className="flex flex-col items-center justify-center">
             <p className="text-[0.9vw] text-black]">
-              {'Edwerd Newgate'.toUpperCase()}
+              {"Edwerd Newgate".toUpperCase()}
             </p>
             <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -71,7 +71,7 @@ export function Team2() {
           />
           <div className="flex flex-col items-center justify-center">
             <p className="text-[0.9vw] text-black]">
-              {'Edwerd Newgate'.toUpperCase()}
+              {"Edwerd Newgate".toUpperCase()}
             </p>
             <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -89,7 +89,7 @@ export function Team2() {
           />
           <div className="flex flex-col items-center justify-center">
             <p className="text-[0.9vw] text-black]">
-              {'Edwerd Newgate'.toUpperCase()}
+              {"Edwerd Newgate".toUpperCase()}
             </p>
             <p className="text-[0.6vw] lg:max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -99,7 +99,7 @@ export function Team2() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Team() {
@@ -114,7 +114,7 @@ export function Team() {
           />
           <div className="flex flex-col items-center justify-center">
             <p className="text-[0.9vw] text-black]">
-              {'Edwerd Newgate'.toUpperCase()}
+              {"Edwerd Newgate".toUpperCase()}
             </p>
             <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -132,7 +132,7 @@ export function Team() {
           />
           <div className="flex flex-col items-center justify-center">
             <p className="text-[0.9vw] text-black]">
-              {'Edwerd Newgate'.toUpperCase()}
+              {"Edwerd Newgate".toUpperCase()}
             </p>
             <p className="text-[0.6vw] max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -150,7 +150,7 @@ export function Team() {
           />
           <div className="flex flex-col items-center justify-center">
             <p className="text-[0.9vw] text-black]">
-              {'Edwerd Newgate'.toUpperCase()}
+              {"Edwerd Newgate".toUpperCase()}
             </p>
             <p className="text-[0.6vw] lg:max-w-[15vw] px-[1.5vw] py-[1vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -162,10 +162,10 @@ export function Team() {
       <div className="w-[20vw] h-[20vw] bg-[#fffbf8] shadow-md bg-opacity-50">
         <div className="flex flex-col items-start justify-start w-full h-full gap-[0.5vw] px-[2vw] py-[1vw]">
           <p className="text-[1.5vw] font-bold text-[#793300]">
-            {'MEET OUR TEAM'.toUpperCase()}
+            {"MEET OUR TEAM".toUpperCase()}
           </p>
           <p className="text-[1.5vw] font-bold text-[#793300]">
-            {'WE BRING IT  '.toUpperCase()}
+            {"WE BRING IT  ".toUpperCase()}
           </p>
           <p className="text-[1.5vw] font-bold text-[#793300]">
             INTO <span className="text-[#FF6B3A]">CHARITY FUN</span>
@@ -200,7 +200,7 @@ export function Team() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Lottery() {
@@ -214,10 +214,10 @@ export function Lottery() {
           </div>
           <div className="mt-[1vw]">
             <p className="text-[1.2vw] md:text-[1.5vw] text-[#FF7429]">
-              {'Mongolia'.toUpperCase()}
+              {"Mongolia".toUpperCase()}
             </p>
             <p className="text-[1.2vw] md:text-[1.5vw] font-bold text-[#832e00]">
-              {'National Lottery'.toUpperCase()}
+              {"National Lottery".toUpperCase()}
             </p>
           </div>
           <p className="text-[0.5vw] max-w-[15vw] text-[#b7b4b2]">
@@ -238,7 +238,7 @@ export function Lottery() {
       <div className="w-[14vw] h-[20vw] bg-[#fe984e]">
         <div className="flex flex-col items-start justify-center px-[1vw] py-[1vw] gap-[2vw] text-white">
           <p className="text-[0.6vw] font-bold ">
-            {'Find Charity'.toUpperCase()}
+            {"Find Charity".toUpperCase()}
           </p>
 
           <p className="text-[0.5vw] max-w-[15vw]">
@@ -252,7 +252,7 @@ export function Lottery() {
       <div className="w-[14vw] h-[20vw] bg-[#ffbf8f]">
         <div className="flex flex-col items-start justify-center px-[1vw] py-[1vw] gap-[2vw] text-white">
           <p className="text-[0.6vw] font-bold ">
-            {'Find Charity'.toUpperCase()}
+            {"Find Charity".toUpperCase()}
           </p>
 
           <p className="text-[0.5vw] max-w-[15vw]">
@@ -266,7 +266,7 @@ export function Lottery() {
       <div className="w-[14vw] h-[20vw] bg-[#ffdbc1]">
         <div className="flex flex-col items-start justify-center px-[1vw] py-[1vw] gap-[2vw] text-white">
           <p className="text-[0.6vw] font-bold ">
-            {'Find Charity'.toUpperCase()}
+            {"Find Charity".toUpperCase()}
           </p>
 
           <p className="text-[0.5vw] max-w-[15vw]">
@@ -278,7 +278,7 @@ export function Lottery() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Mission() {
@@ -287,7 +287,7 @@ export function Mission() {
       <div className="flex flex-col items-start justify-center gap-[5vw] ">
         <div>
           <p className="text-[2.7vw] md:text-[3.0vw] font-bold text-[#842a00]">
-            <em>{'OUr MIssion & Vision'.toUpperCase()}</em>
+            <em>{"OUr MIssion & Vision".toUpperCase()}</em>
           </p>
           <hr className="h-[1vw] w-[15vw] bg-[#f98c47]" />
         </div>
@@ -305,23 +305,26 @@ export function Mission() {
       </div>
       <img src={AboutDiv2} alt="AboutDiv2" className="w-[30vw] h-[30vw]" />
     </div>
-  )
+  );
 }
 
 export function Main() {
   return (
-    <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] ">
+    <div
+      id="aboutus"
+      className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] "
+    >
       <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
         <div className="flex flex-col items-start justify-center h-full gap-[2vw] -mr-[20vw]">
           <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">
-            {'About Us'.toUpperCase()}
+            {"About Us".toUpperCase()}
           </p>
           <div>
             <p className="text-[2.7vw] md:text-[3.0vw] font-bold text-[#f54200]">
-              <em>{'We Offer'.toUpperCase()}</em>
+              <em>{"We Offer".toUpperCase()}</em>
             </p>
             <p className="text-[2.4vw] md:text-[2.7vw]]">
-              {'a Wide Variety of Lotteries'.toUpperCase()}
+              {"a Wide Variety of Lotteries".toUpperCase()}
             </p>
           </div>
           <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
@@ -331,7 +334,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function About() {
@@ -343,6 +346,6 @@ function About() {
       <Team />
       <Team2 />
     </>
-  )
+  );
 }
-export default About
+export default About;

@@ -8,16 +8,19 @@ import {
   ContactDiv6,
   Email,
   NewsLetter,
-} from '../assets'
+} from "../assets";
 
 export function Main() {
   return (
-    <div className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[50vh] lg:h-[84vh] ">
+    <div
+      id="contactus"
+      className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[50vh] lg:h-[84vh] "
+    >
       <div className="bg-notFound-div bg-no-repeat bg-contain w-full h-full ">
         <div className="flex flex-row items-center justify-evenly h-full gap-[5vh]">
           <div className="flex flex-col items-start justify-center h-full gap-[5vh] px-2 py-2">
             <p className="text-[2.5vw] lg:text-[2vw] font-bold ">
-              {'NEWS & public welfare'.toUpperCase()}
+              {"contact us".toUpperCase()}
             </p>
             <p className="text-[2.2vw] lg:text-[1.2vw] max-w-md ">
               {"Do not hesitate to send us an email if you can't find what you're looking for.".toUpperCase()}
@@ -30,7 +33,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function ContactInfo() {
@@ -98,7 +101,7 @@ export function ContactInfo() {
       </div>
       <div className="flex flex-col items-start justify-center gap-8">
         <p className="text-[2.5vw] lg:text-[2vw] font-bold text-[#793300] ">
-          {'have Questions?'.toUpperCase()}
+          {"have Questions?".toUpperCase()}
         </p>
         <p className="text-[2.2vw] lg:text-[1.2vw] max-w-md text-[#E25000]">
           {"Do not hesitate to send us an email if you can't find what you're looking for.".toUpperCase()}
@@ -127,7 +130,7 @@ export function ContactInfo() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function FAQ() {
@@ -135,14 +138,14 @@ export function FAQ() {
     <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto mb-[60vh] gap-3 lg:gap-8">
       <div className="flex flex-row items-center justify-start w-full bg-[#FFE7D5] px-2 py-2 lg:px-6 lg:py-4 rounded-xl shadow-xl">
         <p className="text-[2.5vw] lg:text-[2vw] font-bold text-[#E25000]">
-          {'Questions Asked'.toUpperCase()}
+          {"Questions Asked".toUpperCase()}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-2 py-2 lg:px-6 lg:py-4 rounded-xl shadow-xl pb-[2vh] gap-5">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
             <p className="text-[2.5vw] lg:text-[2vw] text-[#793300]">
-              {'ABOUT MNL9'.toUpperCase()}
+              {"ABOUT MNL9".toUpperCase()}
             </p>
             <img src={ContactDiv2} alt="Logo" className="w-[15vw] " />
           </div>
@@ -169,7 +172,7 @@ export function FAQ() {
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
             <p className="text-[2.5vw] lg:text-[2vw] text-[#793300]">
-              {'BAnking And Payment Method'.toUpperCase()}
+              {"BAnking And Payment Method".toUpperCase()}
             </p>
           </div>
         </div>
@@ -202,7 +205,7 @@ export function FAQ() {
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center gap-5">
             <p className="text-[2.5vw] lg:text-[2vw] text-[#793300]">
-              {'Security '.toUpperCase()}
+              {"Security ".toUpperCase()}
             </p>
             <div className="w-full max-w-[40vw] mx-auto">
               <p className="text-[2.2vw] lg:text-[1.2vw] text-[#000000]">
@@ -225,7 +228,7 @@ export function FAQ() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Contact() {
@@ -238,6 +241,6 @@ function Contact() {
       </div>
       <FAQ />
     </div>
-  )
+  );
 }
-export default Contact
+export default Contact;

@@ -8,18 +8,18 @@ import {
   PowerBall,
   PrizeDiv2,
   f1,
-} from '../assets'
-import { useState } from 'react'
+} from "../assets";
+import { useState } from "react";
 
 export function Winner() {
-  const [show, setShow] = useState(false)
-  const [button, setButton] = useState('VIEW MORE')
+  const [show, setShow] = useState(false);
+  const [button, setButton] = useState("VIEW MORE");
   const handleClick = () => {
     setButton(() => {
-      return button == 'VIEW MORE' ? 'VIEW LESS' : 'VIEW MORE'
-    })
-    setShow(!show)
-  }
+      return button == "VIEW MORE" ? "VIEW LESS" : "VIEW MORE";
+    });
+    setShow(!show);
+  };
   return (
     <div className="prize-bg2 bg-no-repeat bg-cover w-[100vw] flex flex-col items-center justify-start mt-24 gap-10 mb-[50vh]">
       <div
@@ -52,7 +52,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -148,7 +148,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -244,7 +244,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -340,7 +340,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -436,7 +436,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -532,7 +532,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  {'View All Results >'}
+                  {"View All Results >"}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -605,39 +605,39 @@ export function Winner() {
         {button}
       </div>
     </div>
-  )
+  );
 }
 
 export function Result() {
-  const [value1, setValue1] = useState('')
-  const [value2, setValue2] = useState('')
-  const [value3, setValue3] = useState('')
-  const [value4, setValue4] = useState('')
-  const [value5, setValue5] = useState('')
-  const [value6, setValue6] = useState('')
+  const [value1, setValue1] = useState("");
+  const [value2, setValue2] = useState("");
+  const [value3, setValue3] = useState("");
+  const [value4, setValue4] = useState("");
+  const [value5, setValue5] = useState("");
+  const [value6, setValue6] = useState("");
   const onChangeHandler1 = (e) => {
-    setValue1(e.target.value)
-  }
+    setValue1(e.target.value);
+  };
   const onChangeHandler2 = (e) => {
-    setValue2(e.target.value)
-  }
+    setValue2(e.target.value);
+  };
   const onChangeHandler3 = (e) => {
-    setValue3(e.target.value)
-  }
+    setValue3(e.target.value);
+  };
   const onChangeHandler4 = (e) => {
-    setValue4(e.target.value)
-  }
+    setValue4(e.target.value);
+  };
   const onChangeHandler5 = (e) => {
-    setValue5(e.target.value)
-  }
+    setValue5(e.target.value);
+  };
   const onChangeHandler6 = (e) => {
-    setValue6(e.target.value)
-  }
+    setValue6(e.target.value);
+  };
   return (
     <div className="flex flex-col items-start justify-center gap-10 lg:px-6 lg:py-4 px-2 py-2 w-full max-w-[70vw] mx-auto">
       <div>
         <p className="text-[2.5vw] lg:text-[1.5vw] font-bold text-[#793300]">
-          {'rESULT cHECKING'.toUpperCase()}
+          {"rESULT cHECKING".toUpperCase()}
         </p>
         <hr className="h-[2vh] w-[15vw] bg-[#FF7429]" />
       </div>
@@ -648,7 +648,7 @@ export function Result() {
               htmlFor="cars"
               className="text-[2.5vw] lg:text-[0.9vw] font-bold text-[#793300]"
             >
-              {'Select a Game'.toUpperCase()}
+              {"Select a Game".toUpperCase()}
             </label>
 
             <select name="games" id="games">
@@ -667,7 +667,7 @@ export function Result() {
               htmlFor="cars"
               className="text-[2.5vw] lg:text-[0.9vw] font-bold text-[#793300]"
             >
-              {'Pick a date'.toUpperCase()}
+              {"Pick a date".toUpperCase()}
             </label>
 
             <select name="games" id="games">
@@ -686,7 +686,7 @@ export function Result() {
               htmlFor="cars"
               className="text-[2.5vw] lg:text-[0.9vw] font-bold text-[#793300]"
             >
-              {'Enter Your Numbers'.toUpperCase()}
+              {"Enter Your Numbers".toUpperCase()}
             </label>
             <div className="flex flex-row items-center justify-between w-full max-w-xs px-2 lg:px-6">
               <input
@@ -737,12 +737,15 @@ export function Result() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Main() {
   return (
-    <div className="bg-prize-bg bg-no-repeat bg-cover w-full h-[60vh] lg:h-[84vh] ">
+    <div
+      id="prizedrawing"
+      className="bg-prize-bg bg-no-repeat bg-cover w-full h-[60vh] lg:h-[84vh] "
+    >
       <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full lg:px-6 lg:py-4 px-2 py-2">
         <div className="flex flex-row items-center justify-around h-full gap-[5vh] px-6 py-4">
           <div className="-mt-[8vh]">
@@ -750,14 +753,14 @@ export function Main() {
           </div>
           <div className="flex flex-col items-start justify-center h-full gap-[2vw]">
             <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">
-              {'PRIZE GAMING'.toUpperCase()}
+              {"PRIZE GAMING".toUpperCase()}
             </p>
             <div>
               <p className="text-[2.4vw] md:text-[2.7vw]">
-                {'TRY YOUR LUCK NOW!'.toUpperCase()}
+                {"TRY YOUR LUCK NOW!".toUpperCase()}
               </p>
               <p className="text-[2.4vw] md:text-[2.7vw]">
-                {'AWESOME PRIZES WAITING FOR YOU'.toUpperCase()}
+                {"AWESOME PRIZES WAITING FOR YOU".toUpperCase()}
               </p>
             </div>
             <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
@@ -765,7 +768,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Prize() {
@@ -775,6 +778,6 @@ function Prize() {
       <Result />
       <Winner />
     </>
-  )
+  );
 }
-export default Prize
+export default Prize;

@@ -14,17 +14,17 @@ import {
   f5,
   f6,
   f7,
-} from '../assets'
+} from "../assets";
 
 export function Lotteries() {
   return (
     <div className="w-[100vw] min-h-[230vh] md:min-h-[150vh] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw]">
       <div className="flex flex-col items-center justify-center h-full gap-[1vw]">
         <p className="text-[2vw] font-bold text-[#E25000] ">
-          {'LOTTERIES'.toUpperCase()}
+          {"LOTTERIES".toUpperCase()}
         </p>
         <p className="text-[2vw] font-bold text-[#793300]">
-          {'GET EXCLUSIVE ONLINE  PROMOTIONS'.toUpperCase()}
+          {"GET EXCLUSIVE ONLINE  PROMOTIONS".toUpperCase()}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto gap-[2vw]">
@@ -43,7 +43,7 @@ export function Lotteries() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Banner() {
@@ -58,7 +58,7 @@ export function Banner() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Games() {
@@ -66,7 +66,7 @@ export function Games() {
     <div className="flex flex-col items-start justify-center lg:px-6 lg:py-4 px-2 py-2 w-full max-w-[70vw] mx-auto">
       <div>
         <p className="text-[2.5vw] font-bold text-[#793300]">
-          {'OUr Attractive games'.toUpperCase()}
+          {"OUr Attractive games".toUpperCase()}
         </p>
         <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
       </div>
@@ -133,22 +133,25 @@ export function Games() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 export function Main() {
   return (
-    <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] mt-[20vw] md:mt-[3vw]">
+    <div
+      id="game"
+      className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] mt-[20vw] md:mt-[3vw]"
+    >
       <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
         <div className="flex flex-col items-start justify-center h-full gap-[2vw] max-w-[40vw] ">
           <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">
-            {'The New Brand new design'.toUpperCase()}
+            {"The New Brand new design".toUpperCase()}
           </p>
           <div>
             <p className="text-[2.7vw] md:text-[3.0vw] font-bold text-[#f54200]">
-              <em>{'Now we are upgraded'.toUpperCase()}</em>
+              <em>{"Now we are upgraded".toUpperCase()}</em>
             </p>
             <p className="text-[2.4vw] md:text-[2.7vw]]">
-              {'a comprehensive upgrade that blends with mongolian aesthetic'.toUpperCase()}
+              {"a comprehensive upgrade that blends with mongolian aesthetic".toUpperCase()}
             </p>
           </div>
           <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
@@ -158,7 +161,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Game() {
@@ -169,6 +172,6 @@ function Game() {
       <Banner />
       <Lotteries />
     </>
-  )
+  );
 }
-export default Game
+export default Game;

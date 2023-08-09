@@ -1,77 +1,119 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Logo, Search, dropDown, menu } from "../assets";
-function Navbar() {
-  const elements = [
-    "HOME",
-    "ABOUT US",
-    "GAME",
-    "PRIZE DRAWING",
-    "NEWS AND PUBLIC WELFARE",
-    "CONTACT",
-  ];
-  const [active, setActive] = useState(0);
-  const [isMenu, setIsMenu] = useState(false);
+import {
+  Bars3Icon,
+  XMarkIcon,
+  MagnifyingGlassIcon,
+  ChevronDownIcon,
+} from "@heroicons/react/24/solid";
+
+import Link from "./others/Link";
+import useMediaQuery from "../hooks/useMediaQuery";
+
+const Navbar = ({ selectedPage, setSelectedPage }) => {
+  const flexBetween = "flex justify-between items-center";
+  const [isMenuToggled, setIsMenuToggled] = useState(false);
+  const isAboveMediumScreen = useMediaQuery("(min-width: 1060px)");
   return (
-    <div className="w-full">
-      <div className="fixed w-full px-6 py-4 bg-gradient-to-b from-[#F14200] via-[#FFB997] to-[#FFE4D0] z-[99]">
-        <div className="hidden lg:flex flex-row justify-evenly items-center gap-5">
-          <a>
-            <img src={Logo} alt="logo" />
-          </a>
-          {elements.map((element, index) => {
-            return (
-              <p
-                key={index}
-                className={`${
-                  active == index ? "text-[#F14200]" : null
-                } cursor-pointer font-bold`}
-                onClick={() => setActive(index)}
+    <nav>
+      <div
+        className={`${flexBetween} fixed top-0 z-30 w-full py-6 bg-gradient-to-b from-[#F14200] via-[#FFB997] to-[#FFE4D0]`}
+      >
+        <div className={`${flexBetween} mx-auto w-5/6 `}>
+          <div className={`${flexBetween} w-full gap-16`}>
+            <img alt="logo" src={Logo} />
+
+            {isAboveMediumScreen ? (
+              <div className={`${flexBetween} w-full `}>
+                {/* Inner Left Side */}
+                <div className={`${flexBetween} gap-8 text-l`}>
+                  <Link
+                    page="Home"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="About Us"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Game"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Prize Drawing"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="News and Public Welfare"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Contact Us"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </div>
+
+                {/* Inner Right Side */}
+                <div className={`${flexBetween}`}>
+                  <MagnifyingGlassIcon className="h-6 w-6" />
+                  <div className="gap-2 ml-8 flex ">
+                    <p>EN</p> <ChevronDownIcon className="h-4 w-4 mt-1" />
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <button
+                className="rounded-full bg-[#FFB997] p-2"
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                {element}
-              </p>
-            );
-          })}
-          <img src={Search} alt="search" />
-          <div className="flex items-center justify-center gap-1">
-            <p>EN</p>
-            <img src={dropDown} alt="dropDown" />
-          </div>
-        </div>
-        <div className="flex flex-row items-center justify-between lg:hidden">
-          <a>
-            <img src={Logo} alt="logo" />
-          </a>
-          <img
-            src={menu}
-            alt="menu"
-            className="w-[4vh] cursor-pointer"
-            onClick={() => setIsMenu(!isMenu)}
-          />
-          <div
-            className={`${
-              isMenu ? "fixed" : "hidden"
-            } top-[5.5rem] right-0 h-[100vh] px-6 py-4 bg-gradient-to-b from-[#F14200] via-[#FFB997] to-[#FFE4D0]`}
-          >
-            <div className="flex flex-col gap-5 ">
-              {elements.map((element, index) => {
-                return (
-                  <p
-                    key={index}
-                    className={`${
-                      active == index ? "text-[#FFB997]" : null
-                    } cursor-pointer font-light`}
-                    onClick={() => setActive(index)}
-                  >
-                    {element}
-                  </p>
-                );
-              })}
-            </div>
+                <Bars3Icon className="h-6 w-6 text-white" />
+              </button>
+            )}
           </div>
         </div>
       </div>
-    </div>
+      {!isAboveMediumScreen && isMenuToggled && (
+        <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-[#FCB08C] drop-shadow-xl">
+          {/* CLOSE ICON */}
+          <div className="flex justify-end p-12">
+            <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+              <XMarkIcon className="h-6 w-6 text-gray-400" />
+            </button>
+          </div>
+
+          {/* MENU ITEMS */}
+          <div className="ml-[33%] flex flex-col gap-10 text-2xl">
+            <Link
+              page="Home"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Benefits"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Our Classes"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Contact Us"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+          </div>
+        </div>
+      )}
+    </nav>
   );
-}
+};
 
 export default Navbar;
