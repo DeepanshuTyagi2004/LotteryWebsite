@@ -16,14 +16,14 @@ function App() {
   return (
     <main className=" overflow-hidden">
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <About />
-      <Game />
+      <Game /> */}
       <Prize />
-      <News />
-      <Contact />
+      {/* <News />
+      <Contact /> */}
       <Footer />
-      <NotFound />
+      {/* <NotFound /> */}
     </main>
   )
 }
