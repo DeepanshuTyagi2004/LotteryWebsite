@@ -28,8 +28,8 @@ import { Footer } from './Footer'
 
 export function Winner() {
   return (
-    <div className="bg-hero-bg2 w-[100vw] min-h-[60vh] flex flex-col items-center justify-center mt-24 gap-5">
-      <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw]">
+    <div className="bg-hero-bg2 w-[100vw] min-h-[40vw] flex flex-col items-center justify-center mt-[19.5vw] md:mt-[4vw] gap-5">
+      <h1 className="text-[#793300] text-[3.5vw] mb-[2vw]">
         {'Reveal the Winning Numbers'.toUpperCase()}
       </h1>
       <div
@@ -40,14 +40,10 @@ export function Winner() {
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
                 <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
@@ -58,9 +54,7 @@ export function Winner() {
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
                 <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
@@ -93,12 +87,8 @@ export function Winner() {
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
             <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -110,12 +100,8 @@ export function Winner() {
             </div>
             <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -200,7 +186,6 @@ export function Winner() {
             </p>
           </div>
         </div>
-        
       </div>
     </div>
   )
@@ -282,163 +267,163 @@ export function Slider() {
 
 export function Media() {
   return (
-    <div className="bg-hero-bg3 min-w-[100vw] min-h-[100vh] bg-no-repeat bg-cover flex flex-col items-center justify-center">
-      <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw]">
+    <div className="bg-hero-bg3 min-w-[100vw] min-h-[60vw] bg-no-repeat bg-cover flex flex-col items-center justify-center">
+      <h1 className="text-[#793300] text-[3.5vw] mb-[2vw]">
         {'News & public Welfare'.toUpperCase()}
       </h1>
-      <div className="flex flex-row flex-wrap items-start justify-center gap-5 px-6 py-2 w-full">
-        <div className="flex flex-col items-start justify-center gap-5">
+      <div className="flex flex-row items-start justify-center gap-[2vw] px-[3vw] py-[1vw] w-full">
+        <div className="flex flex-col items-start justify-center gap-[2vw]">
           <img
             src={Stuff}
             alt="Placeholder"
-            className=" aspect-video w-[55vh] border-[2px] border-red-800"
+            className=" aspect-video w-[25vw] border-[2px] "
           />
-          <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
+          <p className="text-[1.5vw] text-[#FF6B00]">
             COUNTRY NEWS
           </p>
-          <p className="text-[3vw] lg:text-[2vw] text-[#FF6B00]">
+          <p className="text-[2vw] text-[#FF6B00]">
             {'Lorem Ipsum'.toUpperCase()}
           </p>
-          <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[32vw]">
+          <p className="text-[1vw] max-w-[32vw]">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don&apos;t look even slightly
             believable.
           </p>
-          <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[32vw]">
+          <p className="text-[1vw] max-w-[32vw]">
             By <span className="text-[#FF6B00]">Christina Lau</span>
           </p>
         </div>
-        <div className="flex flex-col items-start justify-center gap-3">
-          <div className="flex flex-col items-start justify-center gap-3">
+        <div className="flex flex-col items-start justify-center gap-[0.6vw]">
+          <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
               src={Stuff}
               alt="Placeholder"
-              className=" aspect-video w-[27.5vh] border-[2px] border-red-800"
+              className=" aspect-video w-[13.5vw] border-[2px] "
             />
-            <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
+            <p className="text-[1vw] text-[#FF6B00]">
               COUNTRY NEWS
             </p>
-            <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
+            <p className="text-[1.5vw] text-[#FF6B00]">
               {'Lorem Ipsum'.toUpperCase()}
             </p>
-            <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+            <p className="text-[0.5vw] max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+            <p className="text-[0.5vw] max-w-[15vw]">
               7:00 AM | April 15
             </p>
           </div>
-          <div className="flex flex-col items-start justify-center gap-3">
+          <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
               src={Stuff}
               alt="Placeholder"
-              className=" aspect-video w-[27.5vh] border-[2px] border-red-800"
+              className=" aspect-video w-[13.5vw] border-[2px] "
             />
-            <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
+            <p className="text-[1vw] text-[#FF6B00]">
               COUNTRY NEWS
             </p>
-            <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
+            <p className="text-[1.5vw] text-[#FF6B00]">
               {'Lorem Ipsum'.toUpperCase()}
             </p>
-            <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+            <p className="text-[0.5vw] max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+            <p className="text-[0.5vw] max-w-[15vw]">
               7:00 AM | April 15
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center gap-10">
-          <div className="flex flex-row items-center justify-center gap-2">
+        <div className="flex flex-col items-center justify-center gap-[1vw]">
+          <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
               src={Stuff}
               alt="Stuff"
-              className=" aspect-square w-[10vh] border-[2px] border-red-800"
+              className=" aspect-square w-[5vw] border-[2px] "
             />
-            <div className="flex flex-col items-start justify-center gap-2">
-              <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
+            <div className="flex flex-col items-start justify-center gap-[0.5vw]">
+              <p className="text-[1vw] text-[#FF6B00]">
                 {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+              <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[15vw]">
+              <p className="text-[1vw] max-w-[15vw]">
                 7:00 AM | April 15
               </p>
-              <hr className="h-[0.2vh] w-full bg-slate-500" />
+              <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
-          <div className="flex flex-row items-center justify-center gap-2">
+          <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
               src={Stuff}
               alt="Stuff"
-              className=" aspect-square w-[10vh] border-[2px] border-red-800"
+              className=" aspect-square w-[5vw] border-[2px] "
             />
-            <div className="flex flex-col items-start justify-center gap-2">
-              <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
+            <div className="flex flex-col items-start justify-center gap-[1vw]">
+              <p className="text-[1vw] text-[#FF6B00]">
                 {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+              <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[15vw]">
+              <p className="text-[1vw] max-w-[15vw]">
                 7:00 AM | April 15
               </p>
-              <hr className="h-[0.2vh] w-full bg-slate-500" />
+              <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
-          <div className="flex flex-row items-center justify-center gap-2">
+          <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
               src={Stuff}
               alt="Stuff"
-              className=" aspect-square w-[10vh] border-[2px] border-red-800"
+              className=" aspect-square w-[5vw] border-[2px] "
             />
-            <div className="flex flex-col items-start justify-center gap-2">
-              <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
+            <div className="flex flex-col items-start justify-center gap-[1vw]">
+              <p className="text-[1vw] text-[#FF6B00]">
                 {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+              <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[15vw]">
+              <p className="text-[1vw] max-w-[15vw]">
                 7:00 AM | April 15
               </p>
-              <hr className="h-[0.2vh] w-full bg-slate-500" />
+              <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
-          <div className="flex flex-row items-center justify-center gap-2">
+          <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
               src={Stuff}
               alt="Stuff"
-              className=" aspect-square w-[10vh] border-[2px] border-red-800"
+              className=" aspect-square w-[5vw] border-[2px] "
             />
-            <div className="flex flex-col items-start justify-center gap-2">
-              <p className="text-[2vw] lg:text-[1vw] text-[#FF6B00]">
+            <div className="flex flex-col items-start justify-center gap-[1vw]">
+              <p className="text-[1vw] text-[#FF6B00]">
                 {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[2vw] lg:text-[0.5vw] lg:max-w-[15vw]">
+              <p className="text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[2.5vw] lg:text-[1vw] lg:max-w-[15vw]">
+              <p className="text-[1vw] max-w-[15vw]">
                 7:00 AM | April 15
               </p>
             </div>
@@ -484,9 +469,7 @@ export function Subscribe() {
           </div>
           <div className="block bg-Div-four w-[44vw] h-[40vw] bg-cover bg-no-repeat">
             <div className="grid place-content-center w-[40vw] h-[40vw]">
-              <img src={Books} alt="Books"
-                className='w-[35vw] h-[35vw]'
-              />
+              <img src={Books} alt="Books" className="w-[35vw] h-[35vw]" />
             </div>
           </div>
         </div>
@@ -498,74 +481,70 @@ export function Subscribe() {
 export function Testimonial() {
   const [active, setActive] = useState(0)
   return (
-    <div className="w-[100vw] h-[110vh] bg-hero-bg5 bg-no-repeat bg-cover">
-      <div className="flex flex-col items-center justify-center gap-10">
-        <h1 className="text-[#793300] text-[5.5vw] lg:text-[3.5vw] mb-[4vw] lg:mb-[2vw] mt-20">
+    <div className="w-[100vw] h-[60vw] bg-hero-bg5 bg-no-repeat bg-cover">
+      <div className="flex flex-col items-center justify-center gap-[2vw]">
+        <h1 className="text-[#793300] text-[3.5vw] mb-[2vw] mt-[4vw]">
           {'Testimonial'.toUpperCase()}
         </h1>
-        <div className="flex flex-row items-center justify-around gap-5">
-          <div className="relative flex flex-col items-center justify-start w-[45vh] h-[30vh]">
+        <div className="flex flex-row items-center justify-around gap-[2vw]">
+          <div className="relative flex flex-col items-center justify-start w-[30vw] h-[15vw]">
             <img
               src={face1}
               alt="face1"
-              className="rounded-full w-[10vh] h-[10vh]"
+              className="rounded-full w-[10vw] h-[10vw]"
             />
             <img
               src={container}
               alt="container"
-              className=" relative lg:w-[40vw] lg:h-[20vh] -mt-10"
+              className=" relative w-[40vw] h-[10vw] -mt-[2vw]"
             />
-            <div className="absolute flex flex-col items-center top-[12vh]">
-              <p className="text-[3vw] lg:text-[1vw] lg:max-w-[15vw]">
-                What is Lorem ipsum
-              </p>
-              <p className="text-[3vw] lg:text-[0.8vw] lg:max-w-[15vw]">
-                Lorem Ipsum is simply dummy text of the printing
+            <div className="absolute flex flex-col items-center top-[11.5vw]">
+              <p className="text-[1vw]">What is Lorem ipsum</p>
+              <p className="text-[0.8vw] max-w-[25vw]">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+                maiores dignissimos distinctio architecto, a nulla! Consectetur
+                maiores harum delectus, veritatis voluptatibus, eos.
               </p>
             </div>
           </div>
-          <div className="relative flex flex-col items-center justify-start w-[45vh] h-[30vh]">
+          <div className="relative flex flex-col items-center justify-start w-[30vw] h-[15vw]">
             <img
               src={face2}
               alt="face2"
-              className="rounded-full w-[10vh] h-[10vh]"
+              className="rounded-full w-[10vw] h-[10vw]"
             />
             <img
               src={container}
               alt="container"
-              className=" relative lg:w-[40vw] lg:h-[20vh] -mt-10"
+              className=" relative w-[40vw] h-[10vw] -mt-[2vw]"
             />
-            <div className="absolute flex flex-col items-center top-[12vh]">
-              <p className="text-[3vw] lg:text-[1vw] lg:max-w-[15vw]">
-                What is Lorem ipsum
-              </p>
-              <p className="text-[3vw] lg:text-[0.8vw] lg:max-w-[15vw]">
-                Lorem Ipsum is simply dummy text of the printing
+            <div className="absolute flex flex-col items-center top-[11.5vw]">
+              <p className="text-[1vw]">What is Lorem ipsum</p>
+              <p className="text-[0.8vw] max-w-[25vw]">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, error, excepturi ullam eaque ut id quam voluptates cumque pariatur porro dolorem cupiditate atque.
               </p>
             </div>
           </div>
-          <div className="relative flex flex-col items-center justify-start w-[45vh] h-[30vh]">
+          <div className="relative flex flex-col items-center justify-start w-[30vw] h-[15vw]">
             <img
               src={face3}
               alt="face3"
-              className="rounded-full w-[10vh] h-[10vh]"
+              className="rounded-full w-[10vw] h-[10vw]"
             />
             <img
               src={container}
               alt="container"
-              className=" relative lg:w-[40vw] lg:h-[20vh] -mt-10"
+              className=" relative w-[40vw] h-[10vw] -mt-[2vw]"
             />
-            <div className="absolute flex flex-col items-center top-[12vh]">
-              <p className="text-[3vw] lg:text-[1vw] lg:max-w-[15vw]">
-                What is Lorem ipsum
-              </p>
-              <p className="text-[3vw] lg:text-[0.8vw] lg:max-w-[15vw]">
-                Lorem Ipsum is simply dummy text of the printing
+            <div className="absolute flex flex-col items-center top-[11.5vw]">
+              <p className="text-[1vw]">What is Lorem ipsum</p>
+              <p className="text-[0.8vw] max-w-[25vw]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rerum dicta praesentium alias ad assumenda, enim architecto porro corrupti, nesciunt placeat debitis
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center pt-[0.1vh] gap-5">
+        <div className="flex flex-row items-center justify-center pt-[3vw] gap-[2vw]">
           {Array.apply(0, Array(5)).map((ele, index) => {
             return (
               <div

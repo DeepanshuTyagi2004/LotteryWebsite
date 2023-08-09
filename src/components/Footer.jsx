@@ -2,7 +2,7 @@ import { AppStore, PlayStore, facebook2, instagram2, organistation, twitter2, yo
 
 export function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center gap-[3vw] -mt-[20vw]">
+    <div className="flex flex-col items-center justify-center gap-[2vw] -mt-[20vw]">
       <img
         src={organistation}
         alt="organisation"
