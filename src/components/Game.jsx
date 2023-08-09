@@ -18,7 +18,7 @@ import {
 
 export function Lotteries() {
   return (
-    <div className="w-[100vw] min-h-[230vh] md:min-h-[150vh] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw]">
+    <div className="w-[100vw] min-h-[80vw] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw] mb-[10vw]">
       <div className="flex flex-col items-center justify-center h-full gap-[1vw]">
         <p className="text-[2vw] font-bold text-[#E25000] ">
           {"LOTTERIES".toUpperCase()}
@@ -29,17 +29,17 @@ export function Lotteries() {
       </div>
       <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto gap-[2vw]">
         <div className="flex flex-row items-center justify-between gap-[2vw] flex-wrap">
-          <img src={f1} alt="f1" />
-          <img src={f2} alt="f2" />
+          <img src={f1} alt="f1" className="w-[24vw]" />
+          <img src={f2} alt="f2" className="w-[24vw]" />
         </div>
         <div className="flex flex-row items-center justify-between gap-[3vw] flex-wrap">
-          <img src={f3} alt="f3" />
-          <img src={f4} alt="f4" />
+          <img src={f3} alt="f3" className="w-[24vw]" />
+          <img src={f4} alt="f4" className="w-[24vw]" />
         </div>
         <div className="flex flex-row items-center justify-between gap-[3vw] flex-wrap">
-          <img src={f5} alt="f5" />
-          <img src={f6} alt="f6" />
-          <img src={f7} alt="f7" />
+          <img src={f5} alt="f5" className="w-[15vw]" />
+          <img src={f6} alt="f6" className="w-[15vw]" />
+          <img src={f7} alt="f7" className="w-[15vw]" />
         </div>
       </div>
     </div>
