@@ -171,137 +171,125 @@ export function Media() {
 
 export function Main() {
   return (
-    <div className="bg-prize-bg bg-no-repeat bg-cover w-full h-[60vh] lg:h-[84vh] ">
-      <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full ">
-        <div className="flex flex-row items-end justify-between h-full gap-[5vh]">
-          <div className="flex flex-col items-start justify-center h-full gap-[5vh] ml-[20vw]">
-            <p className="text-[2.5vw] lg:text-[2vw] font-bold ">
-              {'NEWS & public welfare'.toUpperCase()}
+    <div className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] mt-[15vw] md:mt-[1vw]">
+      {/* <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full "> */}
+        <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
+          <div className="flex flex-col items-start justify-center h-full gap-[2vw] max-w-[30vw] mx-auto ">
+          <p className="text-[3.2vw] md:text-[3.5vw] font-bold text-[#832b00]">
+              <em>{'NEWS & public welfare'.toUpperCase()}</em>
             </p>
             {/* <p className="text-[2.5vw] lg:text-[1.5vw] max-w-md font-bold">
               {'Try Your Luck NOw！Awesome Prizes Waiting for you'.toUpperCase()}
             </p> */}
-            <hr className="h-[2vw] lg:h-[2vh] w-[15vw] bg-[#FF7429]" />
+            <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
           </div>
-          <div className="-mt-[8vh]">
-            <img src={NewsBg} alt="NewsBg" className="" />
+          <div className="-mt-[3vw]">
+            <img src={NewsBg} alt="NewsBg" className="w-[56vw] h-[53vw]" />
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </div>
   )
 }
 export function HotNews() {
   return (
-    <div className="flex flex-col md:flex-row items-start justify-center flex-warp w-full max-w-[80vw] mx-auto py-2">
-      <div className="flex flex-col items-start justify-center  gap-5 px-6 w-full md:max-w-[50vw]">
-        <div className="px-6 py-2 w-full md:max-w-[50vw]">
-          <div className="h-[2vh] w-[12vw] lg:h-[6vh] lg:w-[10vw] bg-[#FF7429] rounded-r-full grid place-content-center object-contain ">
-            <p className="text-white text-[1vw] lg:text[4vw] w-full h-full">
-              HOT NEWS
-            </p>
+    <div className="flex flex-row items-start justify-center w-full max-w-[90vw] mx-auto py-[1vw]">
+      <div className="flex flex-col items-start justify-center gap-[2vw] px-[2vw] w-full max-w-[50vw]">
+        <div className="px-[2vw] py-[1vw] w-full max-w-[50vw]">
+          <div className="h-[2vw] w-[10vw] bg-[#FF7429] rounded-r-full grid place-content-center object-contain ">
+            <p className="text-white text-[1vw] w-full h-full">HOT NEWS</p>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap items-start justify-start gap-5 px-6 py-2 w-full md:max-w-[50vw]">
-          <div className="flex flex-col items-start justify-center gap-5">
+        <div className="flex flex-row flex-wrap items-start justify-start gap-[2vw] px-[2vw] py-[1vw] w-full max-w-[70vw]">
+          <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
               src={Stuff}
               alt="Placeholder"
-              className=" aspect-video w-[35vh] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
-              BIG NEWS
-            </p>
+            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
 
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[18vw]">
+            <p className="text-[0.5vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[32vw]">
+            <p className="text-[0.5vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
-          <div className="flex flex-col items-start justify-center gap-5">
+          <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
               src={Stuff}
               alt="Placeholder"
-              className=" aspect-video w-[35vh] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
-              BIG NEWS
-            </p>
+            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
 
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[18vw]">
+            <p className="text-[0.5vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[32vw]">
+            <p className="text-[0.5vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
-          <div className="flex flex-col items-start justify-center gap-5">
+          <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
               src={Stuff}
               alt="Placeholder"
-              className=" aspect-video w-[35vh] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
-              BIG NEWS
-            </p>
+            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
 
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[18vw]">
+            <p className="text-[0.5vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[32vw]">
+            <p className="text-[0.5vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
-          <div className="flex flex-col items-start justify-center gap-5">
+          <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
               src={Stuff}
               alt="Placeholder"
-              className=" aspect-video w-[35vh] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[2.5vw] lg:text-[1.5vw] text-[#FF6B00]">
-              BIG NEWS
-            </p>
+            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
 
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[18vw]">
+            <p className="text-[0.5vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[2.5vw] lg:text-[0.5vw] lg:max-w-[32vw]">
+            <p className="text-[0.5vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-start justify-center px-12 gap-5 lg:px-6 lg:py-2 w-full md:max-w-[25vw]">
-        <div className=" w-full max-w-[25vw]">
-          <div className="h-[2vh] w-[12vw] lg:h-[6vh] lg:w-[10vw] bg-[#FF7429] rounded-r-full grid place-content-center object-contain ">
-            <p className="text-white text-[1vw] lg:text[4vw] w-full h-full md:max-w-[25vw]">
-              HOT NEWS
-            </p>
+      <div className="flex flex-col items-start justify-center gap-[2vw] px-[2vw] w-full max-w-[30vw]">
+        <div className="px-[2vw] py-[1vw] w-full max-w-[50vw]">
+          <div className="h-[2vw] w-[10vw] bg-[#FF7429] rounded-r-full grid place-content-center object-contain ">
+            <p className="text-white text-[1vw] w-full h-full">INFO</p>
           </div>
         </div>
-        <div className="min-w-[20vw] min-h-[24vh] bg-[#fff4eb] rounded-xl md:rounded-3xl lg:px-6 lg:py-4 px-2 py-2">
+        <div className="min-w-[20vw] min-h-[10vw] bg-[#fff4eb] rounded-[1vw] px-[2vw] py-[1vw] ">
           <div className="flex flex-col items-start justify-start">
-            <div className="flex flex-row items-start justify-between">
-              <div className="flex flex-col items-start justify-between w-full md:max-w-[8vw]">
-                <p className="text-[2vh] lg:text-[2vw] font-bold text-[#793300]">
+            <div className="flex flex-row items-start justify-between gap-[5vw]">
+              <div className="flex flex-col items-start justify-between w-full max-w-[8vw]">
+                <p className="text-[2vw] font-bold text-[#793300]">
                   Newsletter
                 </p>
-                <hr className="w-[6vw] h-[0.5vh] lg:h-[1vh] bg-[#E25000]" />
-                <p className="text-[1.5vh] lg:text-[1vw] font-bold text-[#793300]">
+                <hr className="w-[6vw] h-[0.5vw] bg-[#E25000]" />
+                <p className="text-[1vw] font-bold text-[#793300]">
                   Stay Informed with Our Newsletter
                 </p>
               </div>
@@ -309,22 +297,22 @@ export function HotNews() {
                 <img
                   src={NewsLetter}
                   alt="NewsLetter"
-                  className="md:mt-[2vh]"
+                  className="-mt-[2vw] w-[10vw] h-[10vw] "
                 />
               </div>
             </div>
-            <form className="w-full max-w-xs">
+            <form className="w-full max-w-[20vw] mt-[1vw]">
               <input
                 type="text"
-                className="rounded-full bg-[#fee8da] w-full h-[5vh] text-[#FE9345] shadow-2xl placeholder-[#FE9345] px-6 text-[2vw] lg:text-[0.8vw]"
+                className="rounded-full bg-[#fee8da] w-full h-[2.5vw] text-[#FE9345] shadow-2xl placeholder-[#FE9345] px-[2vw] text-[0.8vw]"
                 placeholder="Name"
               />
               <input
-                type="text"
-                className="rounded-full bg-[#fee8da] w-full h-[5vh] text-[#FE9345] shadow-2xl mt-7 placeholder-[#FE9345] px-6 text-[2vw] lg:text-[0.8vw]"
+                type="email"
+                className="rounded-full bg-[#fee8da] w-full h-[2.5vw] text-[#FE9345] shadow-2xl placeholder-[#FE9345] px-[2vw] text-[0.8vw] mt-[1vw]"
                 placeholder="Email Address"
               />
-              <button className=" bg-gradient-to-b from-[#FE9345] via-[#FD661A] mt-7 to-[#FF611D] rounded-full w-full h-[5vh] text-white text-[2vw] lg:text-[0.8vw]">
+              <button className=" bg-gradient-to-b from-[#FE9345] via-[#FD661A] mt-[1vw] to-[#FF611D] rounded-full w-full h-[2.5vw] text-white text-[0.8vw]">
                 REGISTER
               </button>
             </form>
@@ -337,13 +325,13 @@ export function HotNews() {
 
 export function AdBanner() {
   return (
-    <div className="w-full max-w-[50vw] h-[10vh] bg-Ad bg-no-repeat bg-cover mx-auto mt-[10vh] mb-[40vh]">
+    <div className="w-full max-w-[50vw] h-[5vw] bg-Ad bg-no-repeat bg-cover mx-auto mt-[8vw] mb-[25vw]">
       <div className="w-full h-full flex flex-row items-center justify-evenly font-bold text-white ">
-        <p className="max-w-[20vw]">
+        <p className="text-[1vw] max-w-[20vw]">
           GET TO KNOW MORE ABOUT MONGOLIA NATIONAL LOTTERY
         </p>
-        <div className="rounded-full w-[16vh] h-[5vh] grid place-content-center bg-gradient-to-r from-[#FF9F56] to-[#FF7A18]">
-          <p className="text-[2.5vw] lg:text-[0.8vw] font-bold">Learn More</p>
+        <div className="rounded-full w-[9vw] h-[2vw] grid place-content-center bg-gradient-to-r from-[#FF9F56] to-[#FF7A18]">
+          <p className="text-[0.8vw] font-bold">Learn More</p>
         </div>
       </div>
     </div>
