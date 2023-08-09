@@ -17,9 +17,9 @@ export function Main() {
       className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[44vw] mt-[20vw] md:mt-0"
     >
       <div className="bg-notFound-div bg-no-repeat bg-contain w-full h-full ">
-        <div className="flex flex-row items-center justify-evenly h-full gap-[5vh]">
-          <div className="flex flex-col items-start justify-center h-full gap-[5vh] px-2 py-2">
-            <p className="text-[4vw] font-bold ">
+        <div className="flex flex-row items-center justify-evenly h-full gap-[5vw]">
+          <div className="flex flex-col items-start justify-center h-full gap-[5vw] px-2 py-2">
+            <p className="text-[4.3vw] md:text-[4vw] font-bold ">
               {'CONTACT US'.toUpperCase()}
             </p>
             <p className="text-[2.2vw] max-w-[50vw] ">
@@ -61,7 +61,7 @@ export function ContactInfo() {
           </div>
           <form className="w-full max-w-[35vw] flex flex-col gap-[1vw]">
             <label className="flex flex-col">
-              <span className="text-[#793300] text-[1.2vw] font-medium mb-[1vw]">
+              <span className="text-[#793300] text-[1.5vw] md:text-[1.2vw] font-medium mb-[1vw]">
                 Your Name
               </span>
               <input
@@ -70,11 +70,11 @@ export function ContactInfo() {
                 // onChange={handleChange}
                 // value={form.name}
                 placeholder="what's your name?"
-                className="bg-[#FFE7D5] shadow-md text-[1.2vw] shadow-primary py-[1vw] px-[2vw] placeholder:text-[#E25000] text-white border-none outline-none font-medium rounded-[1vw]"
+                className="bg-[#FFE7D5] shadow-md text-[1.5vw] md:text-[1.2vw] shadow-primary py-[1vw] px-[2vw] placeholder:text-[#E25000] text-white border-none outline-none font-medium rounded-[1vw]"
               />
             </label>
             <label className="flex flex-col">
-              <span className="text-[#793300] text-[1.2vw] font-medium mb-[1vw]">
+              <span className="text-[#793300] text-[1.5vw] md:text-[1.2vw] font-medium mb-[1vw]">
                 Your Email
               </span>
               <input
@@ -83,11 +83,11 @@ export function ContactInfo() {
                 // onChange={handleChange}
                 // value={form.email}
                 placeholder="what's your email?"
-                className="bg-[#FFE7D5] shadow-md text-[1.2vw] shadow-primary py-[1vw] px-[2vw] placeholder:text-[#E25000] text-white border-none outline-none font-medium rounded-[1vw]"
+                className="bg-[#FFE7D5] shadow-md text-[1.5vw] md:text-[1.2vw] shadow-primary py-[1vw] px-[2vw] placeholder:text-[#E25000] text-white border-none outline-none font-medium rounded-[1vw]"
               />
             </label>
             <label className="flex flex-col">
-              <span className="text-[#793300] text-[1.2vw] font-medium mb-[1vw]">
+              <span className="text-[#793300] text-[1.5vw] md:text-[1.2vw] font-medium mb-[1vw]">
                 Your Message
               </span>
               <textarea
@@ -96,7 +96,7 @@ export function ContactInfo() {
                 // onChange={handleChange}
                 // value={form.message}
                 placeholder="what do you want to say?"
-                className="bg-[#FFE7D5] shadow-md text-[1.2vw] shadow-primary py-[1vw] px-[2vw] placeholder:text-[#E25000] text-white border-none outline-none font-medium rounded-[1vw]"
+                className="bg-[#FFE7D5] shadow-md text-[1.5vw] md:text-[1.2vw] shadow-primary py-[1vw] px-[2vw] placeholder:text-[#E25000] text-white border-none outline-none font-medium rounded-[1vw]"
               />
             </label>
             <button className=" bg-gradient-to-b from-[#FE9345] via-[#FD661A] mt-[2vw] to-[#FF611D] rounded-full w-full h-[3vw] text-white text-[0.8vw]">
@@ -106,19 +106,19 @@ export function ContactInfo() {
         </div>
       </div>
       <div className="flex flex-col items-start justify-center gap-[2vw]">
-        <p className="text-[2vw] font-bold text-[#793300] ">
+        <p className="text-[2.3vw] md:text-[2vw] font-bold text-[#793300] ">
           {'have Questions?'.toUpperCase()}
         </p>
-        <p className="text-[1.2vw] max-w-[20vw] text-[#E25000]">
+        <p className="text-[1.5vw] md:text-[1.2vw] max-w-[20vw] text-[#E25000]">
           {"Do not hesitate to send us an email if you can't find what you're looking for.".toUpperCase()}
         </p>
         <div className="flex flex-row items-center justify-between gap-[2vw]">
           <img src={Email} alt="Email" className="w-[5vw] aspect-square" />
           <div className="flex flex-col items-start justify-between">
-            <p className="text-[1.8vw] font-bold text-[#793300]">
+            <p className="text-[2.1vw] md:text-[1.8vw] font-bold text-[#793300]">
               EMAIL US
             </p>
-            <p className="text-[1.8vw] text-[#E25000]">
+            <p className="text-[2.1vw] md:text-[1.8vw] text-[#E25000]">
               MNL9@gmail.com
             </p>
           </div>
@@ -126,10 +126,10 @@ export function ContactInfo() {
         <div className="flex flex-row items-center justify-between gap-[2vw]">
           <img src={Call} alt="Email" className="w-[5vw] aspect-square" />
           <div className="flex flex-col items-start justify-between">
-            <p className="text-[1.8vw] font-bold text-[#793300]">
+            <p className="text-[2.1vw] md:text-[1.8vw] font-bold text-[#793300]">
               CALL US
             </p>
-            <p className="text-[1.8vw] text-[#E25000]">
+            <p className="text-[2.1vw] md:text-[1.8vw] text-[#E25000]">
               xxxxxxx.xxxxxxxxx
             </p>
           </div>
@@ -143,14 +143,14 @@ export function FAQ() {
   return (
     <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto mb-[30vw] gap-[3vw]">
       <div className="flex flex-row items-center justify-start w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl">
-        <p className="text-[2.5vw] lg:text-[2vw] font-bold text-[#E25000]">
+        <p className="text-[2.5vw] md:text-[2vw] font-bold text-[#E25000]">
           {'Questions Asked'.toUpperCase()}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl pb-[1vw] gap-[2vw]">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
-            <p className="text-[2vw] text-[#793300]">
+            <p className="text-[2.3vw] md:text-[2vw] text-[#793300]">
               {'ABOUT MNL9'.toUpperCase()}
             </p>
             <img src={ContactDiv2} alt="Logo" className="w-[25vw] " />
@@ -160,7 +160,7 @@ export function FAQ() {
           </div>
         </div>
         <div className="w-full max-w-[70vw] mx-auto">
-          <p className="text-[1.2vw] text-[#000000]">
+          <p className="text-[1.5vw] md:text-[1.2vw] text-[#000000]">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
@@ -177,13 +177,13 @@ export function FAQ() {
       <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl pb-[1vw] gap-[2vw]">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
-            <p className="text-[2vw] text-[#793300]">
+            <p className="text-[2.3vw] md:text-[2vw] text-[#793300]">
               {'BAnking And Payment Method'.toUpperCase()}
             </p>
           </div>
         </div>
         <div className="w-full max-w-[70vw] mx-auto">
-          <p className="text-[1.2vw] text-[#000000]">
+          <p className="text-[1.5vw] md:text-[1.2vw] text-[#000000]">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
@@ -210,11 +210,11 @@ export function FAQ() {
       <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl pb-[1vw] gap-[2vw]">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center gap-[2vw]">
-            <p className="text-[2vw] text-[#793300]">
+            <p className="text-[2.3vw] md:text-[2vw] text-[#793300]">
               {'Security '.toUpperCase()}
             </p>
             <div className="w-full max-w-[40vw] mx-auto">
-              <p className="text-[1.2vw] text-[#000000]">
+              <p className="text-[1.5vw] md:text-[1.2vw] text-[#000000]">
                 It is a long-established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less

@@ -2,9 +2,9 @@ import { NewsBg, NewsLetter, Stuff } from "../assets";
 
 export function Media() {
   return (
-    <div className="min-w-[100vw] min-h-[60vw] flex flex-col items-center justify-center">
-      <h1 className="text-[#793300] text-[3.5vw] mb-[2vw]">
-        {"CHRONICLE OF MONGOLIA".toUpperCase()}
+    <div className="min-w-[100vw] min-h-[60vw] flex flex-col items-center justify-center mt-[2vw] mb-[2vw]">
+      <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw] font-bold">
+        {'CHRONICLE OF MONGOLIA'.toUpperCase()}
       </h1>
       <div className="flex flex-row items-start justify-center gap-[2vw] px-[3vw] py-[1vw] w-full">
         <div className="flex flex-col items-start justify-center gap-[2vw]">
@@ -13,17 +13,19 @@ export function Media() {
             alt="Placeholder"
             className=" aspect-video w-[25vw] border-[2px] "
           />
-          <p className="text-[1.5vw] text-[#FF6B00]">COUNTRY NEWS</p>
-          <p className="text-[2vw] text-[#FF6B00]">
-            {"Lorem Ipsum".toUpperCase()}
+          <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+            COUNTRY NEWS
           </p>
-          <p className="text-[1vw] max-w-[32vw]">
+          <p className="text-[2.3vw] md:text-[2vw] text-[#FF6B00]">
+            {'Lorem Ipsum'.toUpperCase()}
+          </p>
+          <p className="text-[1.3vw] md:text-[1vw] max-w-[32vw]">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don&apos;t look even slightly
             believable.
           </p>
-          <p className="text-[1vw] max-w-[32vw]">
+          <p className="text-[1.3vw] md:text-[1vw] max-w-[32vw]">
             By <span className="text-[#FF6B00]">Christina Lau</span>
           </p>
         </div>
@@ -34,17 +36,21 @@ export function Media() {
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
-            <p className="text-[1vw] text-[#FF6B00]">COUNTRY NEWS</p>
-            <p className="text-[1.5vw] text-[#FF6B00]">
-              {"Lorem Ipsum".toUpperCase()}
+            <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+              COUNTRY NEWS
             </p>
-            <p className="text-[0.5vw] max-w-[15vw]">
+            <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+              {'Lorem Ipsum'.toUpperCase()}
+            </p>
+            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.5vw] max-w-[15vw]">7:00 AM | April 15</p>
+            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
+              7:00 AM | April 15
+            </p>
           </div>
           <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
@@ -52,17 +58,21 @@ export function Media() {
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
-            <p className="text-[1vw] text-[#FF6B00]">COUNTRY NEWS</p>
-            <p className="text-[1.5vw] text-[#FF6B00]">
-              {"Lorem Ipsum".toUpperCase()}
+            <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+              COUNTRY NEWS
             </p>
-            <p className="text-[0.5vw] max-w-[15vw]">
+            <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+              {'Lorem Ipsum'.toUpperCase()}
+            </p>
+            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.5vw] max-w-[15vw]">7:00 AM | April 15</p>
+            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
+              7:00 AM | April 15
+            </p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center gap-[1vw]">
@@ -73,16 +83,18 @@ export function Media() {
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[0.5vw]">
-              <p className="text-[1vw] text-[#FF6B00]">
-                {"Lorem Ipsum".toUpperCase()}
+              <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+                {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[0.5vw] max-w-[15vw]">
+              <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
               <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
@@ -93,16 +105,18 @@ export function Media() {
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
-              <p className="text-[1vw] text-[#FF6B00]">
-                {"Lorem Ipsum".toUpperCase()}
+              <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+                {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[0.5vw] max-w-[15vw]">
+              <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
               <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
@@ -113,16 +127,18 @@ export function Media() {
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
-              <p className="text-[1vw] text-[#FF6B00]">
-                {"Lorem Ipsum".toUpperCase()}
+              <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+                {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[0.5vw] max-w-[15vw]">
+              <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
               <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
@@ -133,23 +149,26 @@ export function Media() {
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
-              <p className="text-[1vw] text-[#FF6B00]">
-                {"Lorem Ipsum".toUpperCase()}
+              <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+                {'Lorem Ipsum'.toUpperCase()}
               </p>
-              <p className="text-[0.5vw] max-w-[15vw]">
+              <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
+
 
 export function Main() {
   return (
@@ -189,15 +208,17 @@ export function HotNews() {
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
+            <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+              BIG NEWS
+            </p>
 
-            <p className="text-[0.9vw] max-w-[18vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.9vw] max-w-[32vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
@@ -207,15 +228,17 @@ export function HotNews() {
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
+            <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+              BIG NEWS
+            </p>
 
-            <p className="text-[0.9vw] max-w-[18vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.9vw] max-w-[32vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
@@ -225,15 +248,17 @@ export function HotNews() {
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
+            <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+              BIG NEWS
+            </p>
 
-            <p className="text-[0.9vw] max-w-[18vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.9vw] max-w-[32vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
@@ -243,15 +268,17 @@ export function HotNews() {
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
-            <p className="text-[1.5vw] text-[#FF6B00]">BIG NEWS</p>
+            <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+              BIG NEWS
+            </p>
 
-            <p className="text-[0.9vw] max-w-[18vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[18vw]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.9vw] max-w-[32vw]">
+            <p className="text-[1.2vw] md:text-[0.9vw] max-w-[32vw]">
               By <span className="text-[#FF6B00]">Christina Lau</span>
             </p>
           </div>
@@ -302,7 +329,7 @@ export function HotNews() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export function AdBanner() {
