@@ -12,20 +12,20 @@ import {
 
 export function Main() {
   return (
-    <div className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[50vh] lg:h-[84vh] ">
+    <div className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[44vw] mt-[20vw] md:mt-0">
       <div className="bg-notFound-div bg-no-repeat bg-contain w-full h-full ">
         <div className="flex flex-row items-center justify-evenly h-full gap-[5vh]">
           <div className="flex flex-col items-start justify-center h-full gap-[5vh] px-2 py-2">
-            <p className="text-[2.5vw] lg:text-[2vw] font-bold ">
-              {'NEWS & public welfare'.toUpperCase()}
+            <p className="text-[4vw] font-bold ">
+              {'CONTACT US'.toUpperCase()}
             </p>
-            <p className="text-[2.2vw] lg:text-[1.2vw] max-w-md ">
+            <p className="text-[2.2vw] max-w-[50vw] ">
               {"Do not hesitate to send us an email if you can't find what you're looking for.".toUpperCase()}
             </p>
-            <hr className="h-[2vw] lg:h-[2vh] w-[15vw] bg-[#FF7429]" />
+            <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
           </div>
           <div className="">
-            <img src={ContactDiv1} alt="NewsBg" className="" />
+            <img src={ContactDiv1} alt="NewsBg" className=" w-[30vw] " />
           </div>
         </div>
       </div>
@@ -35,21 +35,21 @@ export function Main() {
 
 export function ContactInfo() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-evenly px-2 py-2 lg:px-6 lg:py-4 min-h-[60vh] gap-8">
-      <div className="min-w-[25vw] min-h-[24vh] bg-[#ffffff] rounded-xl md:rounded-3xl lg:px-6 lg:py-4 px-2 py-2 shadow-2xl">
+    <div className="flex flex-row items-center justify-evenly px-[2vw] py-[0.5vw] min-h-[40vw] gap-[2vw]">
+      <div className="min-w-[40vw] min-h-[10vw] bg-[#ffffff] rounded-[2vw] md:rounded-3xl px-[0.5vw] py-[0.5vw] shadow-2xl">
         <div className="flex flex-col items-center justify-center">
-          <div className="flex flex-row items-start justify-center">
+          <div className="flex flex-row items-center justify-between w-full">
             <div className="flex flex-col items-start justify-center">
-              <p className="text-[4.5vh] lg:text-[1.8vw] font-bold text-[#793300]">
+              <p className="text-[1.8vw] font-bold text-[#793300]">
                 Get in Touch
               </p>
-              <hr className="w-[6vh] lg:w-[6vw] h-[0.5vh] lg:h-[1vh] bg-[#E25000]" />
+              <hr className="w-[6vw] h-[0.5vw] bg-[#E25000]" />
               {/* <p className="text-[1.5vh] lg:text-[1vw] font-bold text-[#793300]">
                 Stay Informed with Our Newsletter
               </p> */}
             </div>
             <div className="flex items-center justify-center ">
-              <img src={NewsLetter} alt="NewsLetter" className="-mt-[3vh]" />
+              <img src={NewsLetter} alt="NewsLetter" className="-mt-[1vw] w-[25vw] " />
             </div>
           </div>
           <form className="w-full max-w-xs flex flex-col gap-8">
@@ -133,12 +133,12 @@ export function ContactInfo() {
 export function FAQ() {
   return (
     <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto mb-[60vh] gap-3 lg:gap-8">
-      <div className="flex flex-row items-center justify-start w-full bg-[#FFE7D5] px-2 py-2 lg:px-6 lg:py-4 rounded-xl shadow-xl">
+      <div className="flex flex-row items-center justify-start w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-xl shadow-xl">
         <p className="text-[2.5vw] lg:text-[2vw] font-bold text-[#E25000]">
           {'Questions Asked'.toUpperCase()}
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-2 py-2 lg:px-6 lg:py-4 rounded-xl shadow-xl pb-[2vh] gap-5">
+      <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-xl shadow-xl pb-[2vh] gap-5">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
             <p className="text-[2.5vw] lg:text-[2vw] text-[#793300]">
@@ -165,7 +165,7 @@ export function FAQ() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-2 py-2 lg:px-6 lg:py-4 rounded-xl shadow-xl pb-[2vh] gap-5">
+      <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-xl shadow-xl pb-[2vh] gap-5">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
             <p className="text-[2.5vw] lg:text-[2vw] text-[#793300]">
@@ -198,7 +198,7 @@ export function FAQ() {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-2 py-2 lg:px-6 lg:py-4 rounded-xl shadow-xl pb-[2vh] gap-5">
+      <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-xl shadow-xl pb-[2vh] gap-5">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center gap-5">
             <p className="text-[2.5vw] lg:text-[2vw] text-[#793300]">
@@ -234,7 +234,7 @@ function Contact() {
       <Main />
       <ContactInfo />
       <div className="w-full max-w-[70vw] mx-auto">
-        <hr className="w-full h-[0.5vh] bg-black mb-10" />
+        <hr className="w-full h-[0.1vw] bg-black mb-[2vw]" />
       </div>
       <FAQ />
     </div>

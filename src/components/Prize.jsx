@@ -21,74 +21,64 @@ export function Winner() {
     setShow(!show)
   }
   return (
-    <div className="prize-bg2 bg-no-repeat bg-cover w-[100vw] flex flex-col items-center justify-start mt-[5vw] gap-[5vw] mb-[50vh]">
+    <div className="prize-bg2 bg-no-repeat bg-cover w-[100vw] flex flex-col items-center justify-start mt-[5vw] gap-[4vw] mb-[30vw]">
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
-        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[1vw] py-[1vw">
+        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[0.7vw] md:text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
-                <p className="text-[1vw] md:text-[1.3vw] text-[#9b643c]">
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
               </div>
             </div>
             <div className="w-full">
-              <hr className="w-full h-[0.2vw] bg-black" />
+              <hr className="w-full h-[0.1vw] bg-black" />
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   1
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   39
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   42
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   12
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   4
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   15
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   63
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -98,14 +88,10 @@ export function Winner() {
                 </div>
               </div>
             </div>
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -121,70 +107,60 @@ export function Winner() {
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
-        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[1vw] py-[1vw]">
+        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[0.7vw] md:text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
-                <p className="text-[1vw] md:text-[1.3vw] text-[#9b643c]">
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
               </div>
             </div>
             <div className="w-full">
-              <hr className="w-full h-[0.2vw] bg-black" />
+              <hr className="w-full h-[0.1vw] bg-black" />
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   1
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   39
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   42
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   12
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   4
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   15
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   63
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -194,14 +170,10 @@ export function Winner() {
                 </div>
               </div>
             </div>
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -217,70 +189,60 @@ export function Winner() {
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
-        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[1vw] py-[1vw]">
+        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[0.7vw] md:text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
-                <p className="text-[1vw] md:text-[1.3vw] text-[#9b643c]">
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
               </div>
             </div>
             <div className="w-full">
-              <hr className="w-full h-[0.2vw] bg-black" />
+              <hr className="w-full h-[0.1vw] bg-black" />
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   1
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   39
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   42
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   12
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   4
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   15
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   63
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -290,14 +252,10 @@ export function Winner() {
                 </div>
               </div>
             </div>
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -313,70 +271,60 @@ export function Winner() {
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
-        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[1vw] py-[1vw]">
+        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[0.7vw] md:text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
-                <p className="text-[1vw] md:text-[1.3vw] text-[#9b643c]">
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
               </div>
             </div>
             <div className="w-full">
-              <hr className="w-full h-[0.2vw] bg-black" />
+              <hr className="w-full h-[0.1vw] bg-black" />
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   1
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   39
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   42
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   12
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   4
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   15
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   63
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -386,14 +334,10 @@ export function Winner() {
                 </div>
               </div>
             </div>
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -411,70 +355,60 @@ export function Winner() {
           show ? 'block' : 'hidden'
         } bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
-        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[1vw] py-[1vw]">
+        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[0.7vw] md:text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
-                <p className="text-[1vw] md:text-[1.3vw] text-[#9b643c]">
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
               </div>
             </div>
             <div className="w-full">
-              <hr className="w-full h-[0.2vw] bg-black" />
+              <hr className="w-full h-[0.1vw] bg-black" />
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   1
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   39
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   42
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   12
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   4
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   15
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   63
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -484,14 +418,10 @@ export function Winner() {
                 </div>
               </div>
             </div>
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -509,72 +439,60 @@ export function Winner() {
           show ? 'block' : 'hidden'
         } bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >
-        <div
-          className={`flex flex-row items-center justify-between w-full gap-[2vw] px-[1vw] py-[1vw]`}
-        >
+        <div className="flex flex-row items-center justify-between w-full gap-[2vw] px-[2vw] py-[1vw]">
           <div className="flex flex-col items-center justify-center gap-[1vw] w-full">
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  POWER BALL
-                </p>
+                <p className="text-[1.5vw] text-[#9b643c]">POWER BALL</p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[0.7vw] md:text-[1vw] text-[#b08379]">
-                  DRAW TOOK PLACE ON
-                </p>
-                <p className="text-[1vw] md:text-[1.3vw] text-[#9b643c]">
+                <p className="text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
               </div>
             </div>
             <div className="w-full">
-              <hr className="w-full h-[0.2vw] bg-black" />
+              <hr className="w-full h-[0.1vw] bg-black" />
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
-                  WINNING NUMBERS:
-                </p>
-                <p className="text-[1.2vw] md:text-[1.5vw] text-[#9b643c]">
+                <p className="text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.5vw] text-[#9b643c]">
                   {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   1
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   39
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   42
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   12
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   4
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   15
                 </div>
-                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.2vw] md:text-[1.5vw]">
+                <div className="grid place-content-center rounded-full w-[3vw] h-[3vw] bg-gradient-to-r from-[#FFA200] to-[#FF710A] text-white text-[1.5vw]">
                   63
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -584,14 +502,10 @@ export function Winner() {
                 </div>
               </div>
             </div>
-            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-2 py-2 md:px-6 md:py-4 w-full">
+            <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Live Drawings,
-                </p>
-                <p className="text-[0.7vw] md:text-[1vw] font-bold">
-                  Unveiling the Winners !
-                </p>
+                <p className="text-[1vw] font-bold">Live Drawings,</p>
+                <p className="text-[1vw] font-bold">Unveiling the Winners !</p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1vw]">
@@ -747,21 +661,21 @@ export function Result() {
 
 export function Main() {
   return (
-    <div className="bg-prize-bg bg-no-repeat bg-cover w-full h-[40vw] md:h-[64vw] ">
-      <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full lg:px-6 lg:py-4 px-2 py-2">
-        <div className="flex flex-row items-center justify-around h-full gap-[5vh] px-6 py-4">
+    <div className="bg-prize-bg bg-no-repeat bg-cover w-full h-[64vw] ">
+      <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full px-[2vw] py-[1vw]">
+        <div className="flex flex-row items-center justify-around h-full gap-[5vh] px-[2vw] py-[1vw]">
           <div className="-mt-[3vw]">
             <img src={PrizeDiv2} className="w-[40vw] h-[40vw]" />
           </div>
           <div className="flex flex-col items-start justify-center h-full gap-[2vw]">
-            <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">
+            <p className="text-[3.5vw] text-[#832b00]">
               {'PRIZE GAMING'.toUpperCase()}
             </p>
             <div>
-              <p className="text-[2.4vw] md:text-[2.7vw]">
+              <p className="text-[2.7vw]">
                 {'TRY YOUR LUCK NOW!'.toUpperCase()}
               </p>
-              <p className="text-[2.4vw] md:text-[2.7vw]">
+              <p className="text-[2.7vw]">
                 {'AWESOME PRIZES WAITING FOR YOU'.toUpperCase()}
               </p>
             </div>
@@ -775,7 +689,7 @@ export function Main() {
 
 function Prize() {
   return (
-    <div className="mt-[20vw]">
+    <div className="mt-[20vw] md:mt-[0]">
       <Main />
       <Result />
       <Winner />

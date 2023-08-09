@@ -1,5 +1,4 @@
 import {
-  AboutDiv,
   Game1,
   Game2,
   Game3,
@@ -18,12 +17,12 @@ import {
 
 export function Lotteries() {
   return (
-    <div className="w-[100vw] min-h-[80vw] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw] mb-[10vw]">
+    <div className="w-[100vw] min-h-[40vw] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw] mb-[30vw]">
       <div className="flex flex-col items-center justify-center h-full gap-[1vw]">
-        <p className="text-[2vw] font-bold text-[#E25000] ">
+        <p className="text-[2.5vw] font-bold text-[#E25000] ">
           {'LOTTERIES'.toUpperCase()}
         </p>
-        <p className="text-[2vw] font-bold text-[#793300]">
+        <p className="text-[2.5vw] font-bold text-[#793300]">
           {'GET EXCLUSIVE ONLINE  PROMOTIONS'.toUpperCase()}
         </p>
       </div>
@@ -48,9 +47,9 @@ export function Lotteries() {
 
 export function Banner() {
   return (
-    <div className="w-[100vw] h-[10vh] bg-[#0b3547] text-white mt-[5vw]">
+    <div className="w-[100vw] h-[10vw] bg-[#0b3547] text-white mt-[5vw] cursor-pointer">
       <div className="w-full h-full max-w-[60vw] flex flex-row items-center justify-between mx-auto">
-        <p className="text-[2.5vw] lg:text-[1.5vw] font-bold">
+        <p className="text-[2.5vw] font-bold">
           If you have any query about lottery or anything !
         </p>
         <div className="rounded-full w-[8vw] h-[3vw] grid place-content-center bg-gradient-to-r from-[#FF9F56] to-[#FF7A18]">
@@ -63,7 +62,7 @@ export function Banner() {
 
 export function Games() {
   return (
-    <div className="flex flex-col items-start justify-center lg:px-6 lg:py-4 px-2 py-2 w-full max-w-[70vw] mx-auto">
+    <div className="flex flex-col items-start justify-center px-[2vh] py-[1vw] w-full max-w-[70vw] mx-auto mt-[2vw]">
       <div>
         <p className="text-[2.5vw] font-bold text-[#793300]">
           {'OUr Attractive games'.toUpperCase()}
