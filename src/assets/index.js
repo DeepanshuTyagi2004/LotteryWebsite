@@ -1,4 +1,9 @@
 import Logo from "./Logo_.png";
+import contactPartners from "./contactPartners.png";
+import onlineRummy from "./benifits/online.png";
+import safe from "./benifits/safe.png";
+import support from "./benifits/support.png";
+import withdrawal from "./benifits/withdrawal.png";
 import Search from "./Search.png";
 import dropDown from "./dropDown.png";
 import menu from "./menu.png";
@@ -70,6 +75,7 @@ export {
   PlayStore,
   HeroBg2,
   Div1Bg,
+  contactPartners,
   PowerBall,
   Comp,
   CashOut,
@@ -117,4 +123,8 @@ export {
   ContactDiv4,
   ContactDiv5,
   ContactDiv6,
+  onlineRummy,
+  safe,
+  support,
+  withdrawal,
 };

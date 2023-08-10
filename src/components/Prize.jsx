@@ -571,7 +571,7 @@ export function Result() {
             <select
               name="games"
               id="games"
-              className="w-full rounded-full max-w-[20vw] h-[2.5vw] px-[1vw] text-[0.8vw] text-[#a43300]"
+              className="w-full rounded-full max-w-[20vw] h-[2.5vw] px-[vw] text-[0.8vw] text-[#a43300] mr-2"
             >
               <option value="SUPER DICE">SUPER DICE</option>
               <option value="CAR RACING">CAR RACING</option>
@@ -661,7 +661,10 @@ export function Result() {
 
 export function Main() {
   return (
-    <div className="bg-prize-bg bg-no-repeat bg-cover w-full h-[64vw] ">
+    <div
+      id="prizedrawing"
+      className="bg-prize-bg bg-no-repeat bg-cover w-full h-[64vw] "
+    >
       <div className="bg-prize-div bg-no-repeat bg-contain w-full h-full px-[2vw] py-[1vw]">
         <div className="flex flex-row items-center justify-around h-full gap-[5vh] px-[2vw] py-[1vw]">
           <div className="-mt-[3vw]">

@@ -69,12 +69,12 @@ export function Games() {
         </p>
         <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
       </div>
-      <div className="flex flex-row items-center justify-center w-full max-w-[70vw] flex-wrap mx-auto gap-5 lg:gap-10">
+      <div className=" grid grid-cols-3 md:grid-cols-6 items-center justify-center w-full max-w-[70vw] flex-wrap mx-auto gap-5 lg:gap-10">
         <div className="flex flex-col items-center justify-center text-[#793300] font-bold">
           <img
             src={Game1}
             alt="Game1"
-            className="w-[10vh] h-[10vh] lg:w-[15vh] lg:h-[15vh] object-cover"
+            className="w-[8vh] h-[8vh] lg:w-[15vh] lg:h-[15vh] object-cover"
           />
           <p className="text-[1.2vw] lg:text-[0.9vw] lg:max-w-[15vw]">
             SUPER DICE
@@ -84,7 +84,7 @@ export function Games() {
           <img
             src={Game2}
             alt="Game1"
-            className="w-[10vh] h-[10vh] lg:w-[15vh] lg:h-[15vh] object-cover"
+            className="w-[8vh] h-[8vh] lg:w-[15vh] lg:h-[15vh] object-cover"
           />
           <p className="text-[1.2vw] lg:text-[0.9vw] lg:max-w-[15vw]">
             CAR RACING
@@ -94,7 +94,7 @@ export function Games() {
           <img
             src={Game3}
             alt="Game1"
-            className="w-[10vh] h-[10vh] lg:w-[15vh] lg:h-[15vh] object-cover"
+            className="w-[8vh] h-[8vh] lg:w-[15vh] lg:h-[15vh] object-cover"
           />
           <p className="text-[1.2vw] lg:text-[0.9vw] lg:max-w-[15vw]">
             LUCKY 5D
@@ -104,7 +104,7 @@ export function Games() {
           <img
             src={Game4}
             alt="Game1"
-            className="w-[10vh] h-[10vh] lg:w-[15vh] lg:h-[15vh] object-cover"
+            className="w-[8vh] h-[8vh] lg:w-[15vh] lg:h-[15vh] object-cover"
           />
           <p className="text-[1.2vw] lg:text-[0.9vw] lg:max-w-[15vw]">
             FUN KENO
@@ -114,7 +114,7 @@ export function Games() {
           <img
             src={Game5}
             alt="Game1"
-            className="w-[10vh] h-[10vh] lg:w-[15vh] lg:h-[15vh] object-cover"
+            className="w-[8vh] h-[8vh] lg:w-[15vh] lg:h-[15vh] object-cover"
           />
           <p className="text-[1.2vw] lg:text-[0.9vw] lg:max-w-[15vw]">
             HORSE RACING
@@ -124,7 +124,7 @@ export function Games() {
           <img
             src={Game6}
             alt="Game1"
-            className="w-[10vh] h-[10vh] lg:w-[15vh] lg:h-[15vh] object-cover"
+            className="w-[8vh] h-[8vh] lg:w-[15vh] lg:h-[15vh] object-cover"
           />
           <p className="text-[1.2vw] lg:text-[0.9vw] lg:max-w-[15vw]">
             POWER BALL
