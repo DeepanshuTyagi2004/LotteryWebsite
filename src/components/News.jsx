@@ -11,7 +11,7 @@ export function Media() {
           <img
             src={AboutDiv3}
             alt="Placeholder"
-            className=" aspect-video w-[25vw] border-[2px] "
+            className=" aspect-video w-[25vw]  "
           />
           <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
             COUNTRY NEWS
@@ -34,7 +34,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[13.5vw] border-[2px] "
+              className=" aspect-video w-[13.5vw]  "
             />
             <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
               COUNTRY NEWS
@@ -56,7 +56,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[13.5vw] border-[2px] "
+              className=" aspect-video w-[13.5vw]  "
             />
             <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
               COUNTRY NEWS
@@ -80,7 +80,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[0.5vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -102,7 +102,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -124,7 +124,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -146,7 +146,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -208,7 +208,7 @@ export function HotNews() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[20vw] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw]  "
             />
             <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
               BIG NEWS
@@ -228,7 +228,7 @@ export function HotNews() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[20vw] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw]  "
             />
             <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
               BIG NEWS
@@ -248,7 +248,7 @@ export function HotNews() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[20vw] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw]  "
             />
             <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
               BIG NEWS
@@ -268,7 +268,7 @@ export function HotNews() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[20vw] border-[2px] border-red-800"
+              className=" aspect-video w-[20vw]  "
             />
             <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
               BIG NEWS
@@ -336,7 +336,10 @@ export function HotNews() {
 
 export function AdBanner() {
   return (
-    <div className="w-full max-w-[50vw] h-[5vw] bg-Ad bg-no-repeat bg-cover mx-auto mt-[8vw] mb-[25vw]">
+    <div className="w-full max-w-[50vw] h-[5vw] bg-Ad bg-no-repeat bg-cover mx-auto mt-[8vw] ">
+      {
+        //mb-[25vw]
+      }
       <div className="w-full h-full flex flex-row items-center justify-evenly font-bold text-white ">
         <p className="text-[1vw] max-w-[20vw]">
           GET TO KNOW MORE ABOUT MONGOLIA NATIONAL LOTTERY

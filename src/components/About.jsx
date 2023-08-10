@@ -3,7 +3,10 @@ import { AboutDiv, AboutDiv2, AboutDiv3, check } from "../assets";
 
 export function Team2() {
   return (
-    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[30vw] mx-auto gap-[1vw] mb-[20vw]">
+    <div className="flex flex-row items-center justify-center px-[2vw] py-[1vw] w-full max-w-[90vw] h-[30vw] mx-auto gap-[1vw] "> 
+    {
+      //mb-[20vw]
+    }
       <div className="min-w-[20vw] min-h-[20vw] bg-[#fffbf8] shadow-md bg-opacity-50">
         <div className="flex flex-col items-start justify-start w-full h-full gap-[0.5vw] px-[2vw] py-[1vw]">
           <p className="text-[1.8vw] md:text-[1.5vw] font-bold text-[#793300]">
@@ -327,19 +330,22 @@ export function Main() {
   return (
     <div
       id="aboutus"
-      className="bg-about-bg bg-no-repeat bg-cover w-full mt-[20vw] md:mt-[2vw] h-[50vw] "
+      className="bg-about-bg bg-no-repeat bg-cover w-full  h-[50vw] "
     >
+      {
+        //mt-[20vw] md:mt-[2vw]
+      }
       <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
         <div className="flex flex-col items-start justify-center h-full gap-[2vw] -mr-[20vw]">
           <p className="text-[3.8vw] md:text-[3.5vw] text-[#832b00]">
-            {"About Us".toUpperCase()}
+            {'About Us'.toUpperCase()}
           </p>
           <div>
             <p className="text-[3.3vw] md:text-[3.0vw] font-bold text-[#f54200]">
-              <em>{"We Offer".toUpperCase()}</em>
+              <em>{'We Offer'.toUpperCase()}</em>
             </p>
             <p className="text-[3.0vw] md:text-[2.7vw]">
-              {"a Wide Variety of Lotteries".toUpperCase()}
+              {'a Wide Variety of Lotteries'.toUpperCase()}
             </p>
           </div>
           <hr className="h-[1vw] w-[15vw] bg-[#FF7429]" />
@@ -349,7 +355,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function About() {

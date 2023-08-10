@@ -25,8 +25,8 @@ import { Games } from "./Game";
 export function Winner() {
   return (
     <div className="bg-hero-bg2 w-[100vw] min-h-[40vw] flex flex-col items-center justify-center mt-[22vw] md:mt-[4vw] gap-5">
-      <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
-        {"Reveal the Winning Numbers".toUpperCase()}
+      <h1 className="text-[#793300] text-[2.8vw] md:text-[2.5vw] font-bold mb-[2vw]">
+        {'Reveal the Winning Numbers'.toUpperCase()}
       </h1>
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
@@ -58,7 +58,7 @@ export function Winner() {
                   WINNING NUMBERS:
                 </p>
                 <p className="text-[1.8vw] md:text-[1.5vw] text-[#9b643c]">
-                  {"View All Results >"}
+                  {'View All Results >'}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-around rounded-full w-full h-[4vw] bg-[#FFFFFF] max-w-[35vw]">
@@ -124,12 +124,12 @@ export function Winner() {
           </div>
         </div>
       </div>
-      <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
-        {"Hot Games, Endless Excitement!".toUpperCase()}
+      <h1 className="text-[#793300] text-[2.8vw] md:text-[2.5vw] font-bold mt-[7vw] mb-[0.5vw]">
+        {'Hot Games, Endless Excitement!'.toUpperCase()}
       </h1>
-      <Games className="mb-4 pb-2" />
-      <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
-        {"Why Choose Us?".toUpperCase()}
+      <Games className="mb-[2vw] pb-[1vw]" />
+      <h1 className="text-[#793300] text-[2.8vw] md:text-[2.5vw] font-bold mt-[7vw] mb-[0.5vw]">
+        {'Why Choose Us?'.toUpperCase()}
       </h1>
       <div className=" grid grid-cols-4 justify-center items-center mt-[3vw] md:mt-[8vw]">
         <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
@@ -194,7 +194,7 @@ export function Winner() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export function Slider() {
@@ -274,7 +274,7 @@ export function Slider() {
 export function Media() {
   return (
     <div className="bg-hero-bg3 min-w-[100vw] min-h-[60vw] bg-no-repeat bg-cover flex flex-col items-center justify-center">
-      <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
+      <h1 className="text-[#793300] text-[2.8vw] md:text-[2.5vw] font-bold mb-[2vw] mt-[7vw]">
         {"News & public Welfare".toUpperCase()}
       </h1>
       <div className="flex flex-row items-start justify-center gap-[2vw] px-[3vw] py-[1vw] w-full">
@@ -282,7 +282,7 @@ export function Media() {
           <img
             src={AboutDiv3}
             alt="Placeholder"
-            className=" aspect-video w-[25vw] border-[2px] "
+            className=" aspect-video w-[25vw]  "
           />
           <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
             COUNTRY NEWS
@@ -305,7 +305,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[13.5vw] border-[2px] "
+              className=" aspect-video w-[13.5vw]  "
             />
             <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
               COUNTRY NEWS
@@ -327,7 +327,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="Placeholder"
-              className=" aspect-video w-[13.5vw] border-[2px] "
+              className=" aspect-video w-[13.5vw]  "
             />
             <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
               COUNTRY NEWS
@@ -351,7 +351,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[0.5vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -373,7 +373,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -395,7 +395,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -417,7 +417,7 @@ export function Media() {
             <img
               src={AboutDiv3}
               alt="AboutDiv3"
-              className=" aspect-square w-[5vw] border-[2px] "
+              className=" aspect-square w-[5vw]  "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
               <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
@@ -446,7 +446,7 @@ export function Subscribe() {
       <div className="flex flex-row justify-center items-center w-full h-full">
         <div className="flex flex-row justify-center items-center rounded-[5vw] overflow-hidden min-w-[90vw] min-h-[40vw] bg-white shadow-xl gap-[1vw] flex-wrap-reverse">
           <div className="flex flex-col items-start justify-center gap-[3vw] pl-[4vw] md:w-[45vw] md:h-[40vw]">
-            <p className="text-[2.8vw] md:text-[2.5vw] text-[#793300]">
+            <p className="text-[2.8vw] md:text-[2.5vw] font-bold text-[#793300]">
               {"More Provinces Coming Soon".toUpperCase()}
             </p>
             <p className="text-[0.9vw] md:text-[1.2vw] max-w-[35vw] text-[#FE9345]">
@@ -487,9 +487,12 @@ export function Subscribe() {
 export function Testimonial() {
   const [active, setActive] = useState(0);
   return (
-    <div className="w-[100vw] h-[60vw] bg-hero-bg5 bg-no-repeat bg-cover">
+    <div className="w-[100vw] h-[40vw] bg-hero-bg5 bg-no-repeat bg-cover">
+      {
+        //h-[60vw]
+      }
       <div className="flex flex-col items-center justify-center gap-[2vw]">
-        <h1 className="text-[#793300] text-[3.5vw] mb-[2vw] mt-[4vw]">
+        <h1 className="text-[#793300] text-[2.8vw] md:text-[2.5vw] font-bold mb-[2vw] mt-[4vw]">
           {"Testimonial".toUpperCase()}
         </h1>
         <div className="flex flex-row items-center justify-around gap-[2vw]">

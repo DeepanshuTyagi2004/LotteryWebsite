@@ -21,7 +21,10 @@ export function Winner() {
     setShow(!show);
   };
   return (
-    <div className="prize-bg2 bg-no-repeat bg-cover w-[100vw] flex flex-col items-center justify-start mt-[5vw] gap-[4vw] mb-[30vw]">
+    <div className="prize-bg2 bg-no-repeat bg-cover w-[100vw] flex flex-col items-center justify-start mt-[5vw] gap-[4vw] mb-[10vw]">
+      {
+        //mb-[30vw]
+      }
       <div
         className={` bg-gradient-to-r from-[#FFDBBF] to-[#FFFFFF] rounded-[4vw] min-h-[20vw] w-[70vw] px-[4vw] py-[1vw]`}
       >

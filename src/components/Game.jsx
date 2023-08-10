@@ -17,13 +17,16 @@ import {
 
 export function Lotteries() {
   return (
-    <div className="w-[100vw] min-h-[40vw] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw] mb-[30vw]">
+    <div className="w-[100vw] min-h-[40vw] flex flex-col items-center justify-start gap-[2vw] max-w-[70vw] mx-auto mt-[5vw] mb-[5vw]">
+      {
+        //mb-[30vw]
+      }
       <div className="flex flex-col items-center justify-center h-full gap-[1vw]">
         <p className="text-[2.5vw] font-bold text-[#E25000] ">
-          {"LOTTERIES".toUpperCase()}
+          {'LOTTERIES'.toUpperCase()}
         </p>
         <p className="text-[2.5vw] font-bold text-[#793300]">
-          {"GET EXCLUSIVE ONLINE  PROMOTIONS".toUpperCase()}
+          {'GET EXCLUSIVE ONLINE  PROMOTIONS'.toUpperCase()}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto gap-[2vw]">
@@ -42,7 +45,7 @@ export function Lotteries() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export function Banner() {
@@ -138,8 +141,11 @@ export function Main() {
   return (
     <div
       id="game"
-      className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] mt-[20vw] md:mt-[3vw]"
+      className="bg-about-bg bg-no-repeat bg-cover w-full h-[50vw] "
     >
+      {
+        //mt-[20vw] md:mt-[3vw]
+      }
       <div className="flex flex-row items-center justify-center h-full gap-[3vw]">
         <div className="flex flex-col items-start justify-center h-full gap-[2vw] max-w-[40vw] ">
           <p className="text-[3.2vw] md:text-[3.5vw] text-[#832b00]">

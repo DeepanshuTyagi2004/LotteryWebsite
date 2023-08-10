@@ -15,8 +15,11 @@ export function Main() {
   return (
     <div
       id="contactus"
-      className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[44vw] mt-[20vw] md:mt-0"
+      className="bg-notFound-bg bg-no-repeat bg-cover w-full h-[44vw] "
     >
+      {
+        //mt-[20vw] md:mt-0
+      }
       <div className="bg-notFound-div bg-no-repeat bg-contain w-full h-full ">
         <div className="flex flex-row items-center justify-evenly h-full gap-[5vw]">
           <div className="flex flex-col items-start justify-center h-full gap-[5vw] px-2 py-2">
