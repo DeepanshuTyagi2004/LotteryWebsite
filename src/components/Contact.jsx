@@ -8,7 +8,8 @@ import {
   ContactDiv6,
   Email,
   NewsLetter,
-} from '../assets'
+  contactPartners,
+} from "../assets";
 
 export function Main() {
   return (
@@ -20,7 +21,7 @@ export function Main() {
         <div className="flex flex-row items-center justify-evenly h-full gap-[5vw]">
           <div className="flex flex-col items-start justify-center h-full gap-[5vw] px-2 py-2">
             <p className="text-[4.3vw] md:text-[4vw] font-bold ">
-              {'CONTACT US'.toUpperCase()}
+              {"CONTACT US".toUpperCase()}
             </p>
             <p className="text-[2.2vw] max-w-[50vw] ">
               {"Do not hesitate to send us an email if you can't find what you're looking for.".toUpperCase()}
@@ -33,7 +34,7 @@ export function Main() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function ContactInfo() {
@@ -107,7 +108,7 @@ export function ContactInfo() {
       </div>
       <div className="flex flex-col items-start justify-center gap-[2vw]">
         <p className="text-[2.3vw] md:text-[2vw] font-bold text-[#793300] ">
-          {'have Questions?'.toUpperCase()}
+          {"have Questions?".toUpperCase()}
         </p>
         <p className="text-[1.5vw] md:text-[1.2vw] max-w-[20vw] text-[#E25000]">
           {"Do not hesitate to send us an email if you can't find what you're looking for.".toUpperCase()}
@@ -136,7 +137,7 @@ export function ContactInfo() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function FAQ() {
@@ -144,14 +145,14 @@ export function FAQ() {
     <div className="flex flex-col items-center justify-center w-full max-w-[70vw] mx-auto mb-[30vw] gap-[3vw]">
       <div className="flex flex-row items-center justify-start w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl">
         <p className="text-[2.5vw] md:text-[2vw] font-bold text-[#E25000]">
-          {'Questions Asked'.toUpperCase()}
+          {"Questions Asked".toUpperCase()}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl pb-[1vw] gap-[2vw]">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
             <p className="text-[2.3vw] md:text-[2vw] text-[#793300]">
-              {'ABOUT MNL9'.toUpperCase()}
+              {"ABOUT MNL9".toUpperCase()}
             </p>
             <img src={ContactDiv2} alt="Logo" className="w-[25vw] " />
           </div>
@@ -178,7 +179,7 @@ export function FAQ() {
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center">
             <p className="text-[2.3vw] md:text-[2vw] text-[#793300]">
-              {'BAnking And Payment Method'.toUpperCase()}
+              {"BAnking And Payment Method".toUpperCase()}
             </p>
           </div>
         </div>
@@ -197,21 +198,14 @@ export function FAQ() {
           </p>
         </div>
         <div>
-          <img src={ContactDiv4} alt="ContactDiv4" className="w-[55vw]" />
-        </div>
-        <div>
-          <img
-            src={ContactDiv5}
-            alt="ContactDiv5"
-            className="w-[55vw] pt-[2vw]"
-          />
+          <img src={contactPartners} alt="ContactDiv4" className="w-[55vw]" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center w-full bg-[#FFE7D5] px-[2vw] py-[1vw] rounded-[1vw] shadow-xl pb-[1vw] gap-[2vw]">
         <div className="flex flex-row items-center justify-between w-full max-w-[70vw] mx-auto">
           <div className="flex flex-col items-start justify-center gap-[2vw]">
             <p className="text-[2.3vw] md:text-[2vw] text-[#793300]">
-              {'Security '.toUpperCase()}
+              {"Security ".toUpperCase()}
             </p>
             <div className="w-full max-w-[40vw] mx-auto">
               <p className="text-[1.5vw] md:text-[1.2vw] text-[#000000]">
@@ -234,7 +228,7 @@ export function FAQ() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Contact() {
@@ -247,6 +241,6 @@ function Contact() {
       </div>
       <FAQ />
     </div>
-  )
+  );
 }
-export default Contact
+export default Contact;
