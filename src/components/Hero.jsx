@@ -23,12 +23,16 @@ import {
   facebook2,
   youtube2,
   twitter2,
+  onlineRummy,
+  safe,
+  withdrawal,
+  support,
 } from "../assets";
 import { Footer } from "./Footer";
 
 export function Winner() {
   return (
-    <div className="bg-hero-bg2 w-[100vw] min-h-[40vw] flex flex-col items-center justify-center mt-[19.5vw] md:mt-[4vw] gap-5">
+    <div className="bg-hero-bg2 w-[100vw] min-h-[40vw] flex flex-col items-center justify-center mt-[22vw] md:mt-[4vw] gap-5">
       <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
         {"Reveal the Winning Numbers".toUpperCase()}
       </h1>
@@ -40,10 +44,14 @@ export function Winner() {
             <div className="flex flex-row items-center justify-between w-full gap-[5vw] ">
               <div className="flex flex-row items-center justify-center gap-[1vw]">
                 <img src={PowerBall} alt="" className="w-[5.5vw] h-[5.5vw] " />
-                <p className="text-[1.8vw] md:text-[1.5vw] text-[#9b643c]">POWER BALL</p>
+                <p className="text-[1.8vw] md:text-[1.5vw] text-[#9b643c]">
+                  POWER BALL
+                </p>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-[1.3vw] md:text-[1vw] text-[#b08379]">DRAW TOOK PLACE ON</p>
+                <p className="text-[1.3vw] md:text-[1vw] text-[#b08379]">
+                  DRAW TOOK PLACE ON
+                </p>
                 <p className="text-[1.6vw] md:text-[1.3vw] text-[#9b643c]">
                   SATURDAY APRIL 20,2021
                 </p>
@@ -54,7 +62,9 @@ export function Winner() {
             </div>
             <div className="flex flex-col items-center justify-center w-full gap-[1vw]">
               <div className="flex flex-row items-center justify-between w-full">
-                <p className="text-[1.8vw] md:text-[1.5vw] text-[#9b643c]">WINNING NUMBERS:</p>
+                <p className="text-[1.8vw] md:text-[1.5vw] text-[#9b643c]">
+                  WINNING NUMBERS:
+                </p>
                 <p className="text-[1.8vw] md:text-[1.5vw] text-[#9b643c]">
                   {"View All Results >"}
                 </p>
@@ -87,8 +97,12 @@ export function Winner() {
           <div className="flex flex-col items-center justify-center gap-[2vw] w-[30vw] aspect-video">
             <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[1.3vw] md:text-[1vw] font-bold">Live Drawings,</p>
-                <p className="text-[1.3vw] md:text-[1vw] font-bold">Unveiling the Winners !</p>
+                <p className="text-[1.3vw] md:text-[1vw] font-bold">
+                  Live Drawings,
+                </p>
+                <p className="text-[1.3vw] md:text-[1vw] font-bold">
+                  Unveiling the Winners !
+                </p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1.3vw] md:text-[1vw]">
@@ -100,8 +114,12 @@ export function Winner() {
             </div>
             <div className="bg-Div-sec bg-no-repeat bg-cover rounded-[2vw] shadow-lg flex flex-col gap-[1vw] items-start justify-center px-[2vw] py-[1vw] w-full">
               <div>
-                <p className="text-[1.3vw] md:text-[1vw] font-bold">Live Drawings,</p>
-                <p className="text-[1.3vw] md:text-[1vw] font-bold">Unveiling the Winners !</p>
+                <p className="text-[1.3vw] md:text-[1vw] font-bold">
+                  Live Drawings,
+                </p>
+                <p className="text-[1.3vw] md:text-[1vw] font-bold">
+                  Unveiling the Winners !
+                </p>
               </div>
               <div className="flex flex-row items-end justify-end w-full">
                 <div className="rounded-full w-[6vw] h-[2vw] bg-gradient-to-t from-[#FE9345] via-[#FD661A] to-[#FF611D] text-white text-[1.3vw] md:text-[1vw]">
@@ -121,68 +139,64 @@ export function Winner() {
       <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
         {"Why Choose Us?".toUpperCase()}
       </h1>
-      <div className="flex flex-wrap flex-row justify-center items-center mt-[3vw] md:mt-[8vw]">
-        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw] ">
+      <div className=" grid grid-cols-4 justify-center items-center mt-[3vw] md:mt-[8vw]">
+        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
-            src={Stuff}
+            src={onlineRummy}
             alt="Stuff"
-            className="absolute top-[-5vw] w-[15vw] h-[15vw]"
+            className="absolute top-[-9vw] w-[15vw] h-[15vw]"
           />
-          <div className="flex flex-col gap-[1vw] mt-[8vw] ">
+          <div className="flex flex-col gap-[1vw] mt-[3vw] ">
             <p className="text-[2.3vw] md:text-[2vw] font-semibold  text-[#FF6B00]">
               ONLINE LOTTERY
             </p>
             <p className="text-[1.6vw] md:text-[1.3vw] max-w-[18vw]">
-              Replacing a maintains the amount of lines. When replacing a
-              selection.
+              We Provide the best online lottery experience .
             </p>
           </div>
         </div>
-        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw] ">
+        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
-            src={Stuff}
+            src={safe}
             alt="Stuff"
-            className="absolute top-[-5vw] w-[15vw] h-[15vw]"
+            className="absolute top-[-8vw] w-[15vw] h-[15vw]"
           />
-          <div className="flex flex-col gap-[1vw] mt-[8vw] ">
+          <div className="flex flex-col gap-[1vw] mt-[4vw] ">
             <p className="text-[2.3vw] md:text-[2vw] font-semibold  text-[#FF6B00]">
-              ONLINE LOTTERY
+              Safe & Secure
             </p>
             <p className="text-[1.6vw] md:text-[1.3vw] max-w-[18vw]">
-              Replacing a maintains the amount of lines. When replacing a
-              selection.
+              We are committed to providing a safe and secure gaming environment
             </p>
           </div>
         </div>
-        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw] ">
+        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
-            src={Stuff}
+            src={withdrawal}
             alt="Stuff"
-            className="absolute top-[-5vw] w-[15vw] h-[15vw]"
+            className="absolute top-[-7vw] w-[19vw] h-[15vw]"
           />
-          <div className="flex flex-col gap-[1vw] mt-[8vw] ">
+          <div className="flex flex-col gap-[1vw] mt-[4vw] ">
             <p className="text-[2.3vw] md:text-[2vw] font-semibold  text-[#FF6B00]">
-              ONLINE LOTTERY
+              Fast Withdrawals
             </p>
             <p className="text-[1.6vw] md:text-[1.3vw] max-w-[18vw]">
-              Replacing a maintains the amount of lines. When replacing a
-              selection.
+              You can withdraw your winnings instantly
             </p>
           </div>
         </div>
-        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw] ">
+        <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
-            src={Stuff}
+            src={support}
             alt="Stuff"
-            className="absolute top-[-5vw] w-[15vw] h-[15vw]"
+            className="absolute top-[-8vw] w-[15vw] h-[15vw]"
           />
-          <div className="flex flex-col gap-[1vw] mt-[8vw] ">
+          <div className="flex flex-col gap-[1vw] mt-[3vw] ">
             <p className="text-[2.3vw] md:text-[2vw] font-semibold  text-[#FF6B00]">
-              ONLINE LOTTERY
+              24/7 Support
             </p>
             <p className="text-[1.6vw] md:text-[1.3vw] max-w-[18vw]">
-              Replacing a maintains the amount of lines. When replacing a
-              selection.
+              We are available 24/7 to assist you with any queries you may have.
             </p>
           </div>
         </div>
@@ -194,7 +208,7 @@ export function Winner() {
 export function Slider() {
   const [active, setActive] = useState(0);
   return (
-    <div id="home" className="w-[100vw] h-[60vw] relative top-20">
+    <div id="home" className="w-[100vw] h-[60vw] relative top-20 md:top-0">
       <img
         src={HeroBg}
         alt="HeroBg"
@@ -213,7 +227,7 @@ export function Slider() {
               </h2>
               <p className="text-[1.8vw] md:text-[1.5vw] max-w-[42vw]">
                 The MNL9 Mobile App is now available on all iOS & Android
-                devices.{' '}
+                devices.{" "}
               </p>
             </div>
             <div className="flex flex-row justify-start items-center">
@@ -252,17 +266,17 @@ export function Slider() {
                 key={index}
                 className={`${
                   active == index
-                    ? 'w-[3.5vw] bg-[#FF6C00]'
-                    : 'w-[0.8vw] bg-[#676767]'
+                    ? "w-[3.5vw] bg-[#FF6C00]"
+                    : "w-[0.8vw] bg-[#676767]"
                 } h-[0.8vw] rounded-full transition-all cursor-pointer`}
                 onClick={() => setActive(index)}
               />
-            )
+            );
           })}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Media() {
@@ -278,7 +292,9 @@ export function Media() {
             alt="Placeholder"
             className=" aspect-video w-[25vw] border-[2px] "
           />
-          <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">COUNTRY NEWS</p>
+          <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
+            COUNTRY NEWS
+          </p>
           <p className="text-[2.3vw] md:text-[2vw] text-[#FF6B00]">
             {"Lorem Ipsum".toUpperCase()}
           </p>
@@ -299,7 +315,9 @@ export function Media() {
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
-            <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">COUNTRY NEWS</p>
+            <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+              COUNTRY NEWS
+            </p>
             <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
               {"Lorem Ipsum".toUpperCase()}
             </p>
@@ -309,7 +327,9 @@ export function Media() {
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">7:00 AM | April 15</p>
+            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
+              7:00 AM | April 15
+            </p>
           </div>
           <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
@@ -317,7 +337,9 @@ export function Media() {
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
-            <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">COUNTRY NEWS</p>
+            <p className="text-[1.3vw] md:text-[1vw] text-[#FF6B00]">
+              COUNTRY NEWS
+            </p>
             <p className="text-[1.8vw] md:text-[1.5vw] text-[#FF6B00]">
               {"Lorem Ipsum".toUpperCase()}
             </p>
@@ -327,7 +349,9 @@ export function Media() {
               injected humour, or randomised words which don&apos;t look even
               slightly believable.
             </p>
-            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">7:00 AM | April 15</p>
+            <p className="text-[0.8vw] md:text-[0.5vw] max-w-[15vw]">
+              7:00 AM | April 15
+            </p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center gap-[1vw]">
@@ -347,7 +371,9 @@ export function Media() {
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
               <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
@@ -367,7 +393,9 @@ export function Media() {
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
               <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
@@ -387,7 +415,9 @@ export function Media() {
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
               <hr className="h-[0.1vw] w-full bg-slate-500" />
             </div>
           </div>
@@ -407,7 +437,9 @@ export function Media() {
                 injected humour, or randomised words which don&apos;t look even
                 slightly believable.
               </p>
-              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">7:00 AM | April 15</p>
+              <p className="text-[1.3vw] md:text-[1vw] max-w-[15vw]">
+                7:00 AM | April 15
+              </p>
             </div>
           </div>
         </div>
@@ -445,7 +477,7 @@ export function Subscribe() {
               </button>
             </form>
             <p className="text-[0.9vw] md:text-[1.2vw] max-w-[35vw] text-[#FE9345]">
-              30YOUR EMAIL WILL NEVER BE SHARED WITH THIRD PARTIES. YOU CAN
+              YOUR EMAIL WILL NEVER BE SHARED WITH THIRD PARTIES. YOU CAN
               UNSUBSCRIBE AT ANY TIME.
             </p>
           </div>

@@ -72,7 +72,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                 className="rounded-full bg-[#FFB997] p-2"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                <Bars3Icon className="h-6 w-6 text-white" />
+                <Bars3Icon className="h-6 w-6 text-black" />
               </button>
             )}
           </div>
@@ -83,7 +83,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
           {/* CLOSE ICON */}
           <div className="flex justify-end p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-              <XMarkIcon className="h-6 w-6 text-gray-400" />
+              <XMarkIcon className="h-6 w-6 text-black-600" />
             </button>
           </div>
 
@@ -95,12 +95,22 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Benefits"
+              page="About Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Our Classes"
+              page="Game"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Prize Drawing"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="News and Public Welfare"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />

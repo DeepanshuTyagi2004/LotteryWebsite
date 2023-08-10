@@ -1,4 +1,8 @@
 import Logo from "./Logo_.png";
+import onlineRummy from "./benifits/online.png";
+import safe from "./benifits/safe.png";
+import support from "./benifits/support.png";
+import withdrawal from "./benifits/withdrawal.png";
 import Search from "./Search.png";
 import dropDown from "./dropDown.png";
 import menu from "./menu.png";
@@ -117,4 +121,8 @@ export {
   ContactDiv4,
   ContactDiv5,
   ContactDiv6,
+  onlineRummy,
+  safe,
+  support,
+  withdrawal,
 };
