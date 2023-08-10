@@ -1,4 +1,4 @@
-import { NewsBg, NewsLetter, Stuff } from "../assets";
+import { AboutDiv3, NewsBg, NewsLetter } from "../assets";
 
 export function Media() {
   return (
@@ -9,7 +9,7 @@ export function Media() {
       <div className="flex flex-row items-start justify-center gap-[2vw] px-[3vw] py-[1vw] w-full">
         <div className="flex flex-col items-start justify-center gap-[2vw]">
           <img
-            src={Stuff}
+            src={AboutDiv3}
             alt="Placeholder"
             className=" aspect-video w-[25vw] border-[2px] "
           />
@@ -32,7 +32,7 @@ export function Media() {
         <div className="flex flex-col items-start justify-center gap-[0.6vw]">
           <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
@@ -54,7 +54,7 @@ export function Media() {
           </div>
           <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
@@ -78,8 +78,8 @@ export function Media() {
         <div className="flex flex-col items-center justify-center gap-[1vw]">
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[0.5vw]">
@@ -100,8 +100,8 @@ export function Media() {
           </div>
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
@@ -122,8 +122,8 @@ export function Media() {
           </div>
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
@@ -144,8 +144,8 @@ export function Media() {
           </div>
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
@@ -206,7 +206,7 @@ export function HotNews() {
         <div className="flex flex-row flex-wrap items-start justify-start gap-[2vw] px-[2vw] py-[1vw] w-full max-w-[70vw]">
           <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
@@ -226,7 +226,7 @@ export function HotNews() {
           </div>
           <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
@@ -246,7 +246,7 @@ export function HotNews() {
           </div>
           <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />
@@ -266,7 +266,7 @@ export function HotNews() {
           </div>
           <div className="flex flex-col items-start justify-center gap-[2vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[20vw] border-[2px] border-red-800"
             />

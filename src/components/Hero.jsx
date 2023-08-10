@@ -9,26 +9,18 @@ import {
   Twitter,
   FaceBook,
   PowerBall,
-  Comp,
-  Stuff,
-  Security,
-  CashOut,
   Books,
   face1,
   container,
   face3,
   face2,
-  organistation,
-  instagram2,
-  facebook2,
-  youtube2,
-  twitter2,
   onlineRummy,
   safe,
   withdrawal,
   support,
+  AboutDiv3,
 } from "../assets";
-import { Footer } from "./Footer";
+import { Games } from "./Game";
 
 export function Winner() {
   return (
@@ -135,7 +127,7 @@ export function Winner() {
       <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
         {"Hot Games, Endless Excitement!".toUpperCase()}
       </h1>
-      {}
+      <Games className="mb-4 pb-2" />
       <h1 className="text-[#793300] text-[3.8vw] md:text-[3.5vw] mb-[2vw]">
         {"Why Choose Us?".toUpperCase()}
       </h1>
@@ -143,7 +135,7 @@ export function Winner() {
         <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
             src={onlineRummy}
-            alt="Stuff"
+            alt="AboutDiv3"
             className="absolute top-[-9vw] w-[15vw] h-[15vw]"
           />
           <div className="flex flex-col gap-[1vw] mt-[3vw] ">
@@ -158,7 +150,7 @@ export function Winner() {
         <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
             src={safe}
-            alt="Stuff"
+            alt="AboutDiv3"
             className="absolute top-[-8vw] w-[15vw] h-[15vw]"
           />
           <div className="flex flex-col gap-[1vw] mt-[4vw] ">
@@ -173,7 +165,7 @@ export function Winner() {
         <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
             src={withdrawal}
-            alt="Stuff"
+            alt="AboutDiv3"
             className="absolute top-[-7vw] w-[19vw] h-[15vw]"
           />
           <div className="flex flex-col gap-[1vw] mt-[4vw] ">
@@ -188,7 +180,7 @@ export function Winner() {
         <div className="relative p-[2vw] flex flex-col justify-center items-center bg-gradient-to-tr from-[#ffa565] via-[#ffdac0] to-[#feede1] rounded-[2vw] max-w-[30vw] min-h-[22vw] gap-[0.5vw] m-[1vw]">
           <img
             src={support}
-            alt="Stuff"
+            alt="AboutDiv3"
             className="absolute top-[-8vw] w-[15vw] h-[15vw]"
           />
           <div className="flex flex-col gap-[1vw] mt-[3vw] ">
@@ -288,7 +280,7 @@ export function Media() {
       <div className="flex flex-row items-start justify-center gap-[2vw] px-[3vw] py-[1vw] w-full">
         <div className="flex flex-col items-start justify-center gap-[2vw]">
           <img
-            src={Stuff}
+            src={AboutDiv3}
             alt="Placeholder"
             className=" aspect-video w-[25vw] border-[2px] "
           />
@@ -311,7 +303,7 @@ export function Media() {
         <div className="flex flex-col items-start justify-center gap-[0.6vw]">
           <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
@@ -333,7 +325,7 @@ export function Media() {
           </div>
           <div className="flex flex-col items-start justify-center gap-[0.6vw]">
             <img
-              src={Stuff}
+              src={AboutDiv3}
               alt="Placeholder"
               className=" aspect-video w-[13.5vw] border-[2px] "
             />
@@ -357,8 +349,8 @@ export function Media() {
         <div className="flex flex-col items-center justify-center gap-[1vw]">
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[0.5vw]">
@@ -379,8 +371,8 @@ export function Media() {
           </div>
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
@@ -401,8 +393,8 @@ export function Media() {
           </div>
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
@@ -423,8 +415,8 @@ export function Media() {
           </div>
           <div className="flex flex-row items-start justify-center gap-[1vw]">
             <img
-              src={Stuff}
-              alt="Stuff"
+              src={AboutDiv3}
+              alt="AboutDiv3"
               className=" aspect-square w-[5vw] border-[2px] "
             />
             <div className="flex flex-col items-start justify-center gap-[1vw]">
